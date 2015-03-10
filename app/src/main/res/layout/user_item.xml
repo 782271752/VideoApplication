@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal">
+        <com.li.videoapplication.View.CircularImage
+            android:id="@+id/user_item_img"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_launcher"/>
+        <LinearLayout
+            android:id="@+id/user_item_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/user_item_title"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="王者LOL归来"
+                android:padding="5dp"
+                android:singleLine="true"
+                android:layout_centerInParent="true"
+                android:textSize="16sp" />
+
+
+            <TextView
+                android:id="@+id/user_item_introduce"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="该用户共上传了198部视频"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:paddingLeft="5dp"
+                android:layout_centerInParent="true"
+                android:textSize="14sp" />
+            <TextView
+                android:id="@+id/user_item_grace"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="目前总排名18位"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:paddingLeft="5dp"
+                android:layout_centerInParent="true"
+                android:textSize="14sp" />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+            <Button
+                android:visibility="gone"
+                android:id="@+id/gift_item_getBtn"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:text="领取"
+                android:textColor="@color/white"
+                android:background="@drawable/bg"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="@color/line" />
+
+
+</LinearLayout>

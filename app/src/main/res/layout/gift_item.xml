@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:padding="10dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/gift_item_img"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:scaleType="centerCrop"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_launcher"/>
+        <LinearLayout
+            android:id="@+id/gift_item_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/gift_item_title"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:padding="5dp"
+                android:singleLine="true"
+                android:layout_centerInParent="true"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="剩余数量:"
+                    android:padding="5dp"
+
+                    android:layout_centerInParent="true"
+                    android:textSize="14sp" />
+                <ProgressBar
+                    android:visibility="gone"
+                    android:id="@+id/gift_item_progressbar"
+                    android:layout_width="50dp"
+                    android:layout_height="3dp"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:progressDrawable="@drawable/progressbar_style"
+                />
+
+                <TextView
+                    android:id="@+id/gift_item_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:padding="5dp"
+                    android:textColor="@color/green"
+                    android:text="1999"/>
+
+                </LinearLayout>
+
+            <TextView
+                android:id="@+id/gift_item_introduce"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="所含物品,金币200个所含物品,金币200个所含物品,金币200个所含物品,金币200个所含物品,金币200个"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:paddingLeft="5dp"
+                android:layout_centerInParent="true"
+                android:textSize="14sp" />
+
+
+
+         </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+            <Button
+                android:id="@+id/gift_item_getBtn"
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:text="领取"
+                android:textSize="14sp"
+                android:textColor="@color/white"
+                android:focusable="false"
+                android:background="@drawable/get"/>
+            </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="@color/line" />
+
+
+</LinearLayout>

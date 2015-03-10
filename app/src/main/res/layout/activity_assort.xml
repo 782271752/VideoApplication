@@ -1,0 +1,155 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.li.videoapplication.activity.AssortActivity">
+
+
+
+    <RelativeLayout
+        android:background="@drawable/bg"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp">
+
+        <ImageButton
+            android:padding="5dp"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/back"
+            android:background="@drawable/search_btn"
+            android:id="@+id/activity_assort_back" />
+
+        <TextView
+            android:id="@+id/activity_assort_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/white"
+            android:layout_centerInParent="true"
+            android:textSize="20sp" />
+
+        <ImageButton
+
+            android:layout_marginRight="2dp"
+            android:layout_alignParentRight="true"
+            android:scaleType="centerInside"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="5dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/persion"
+            android:background="@drawable/search_btn"
+            android:id="@+id/activity_assort_persion" />
+
+        <ImageButton
+            android:layout_toLeftOf="@id/activity_assort_persion"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="5dp"
+            android:layout_centerVertical="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/video"
+            android:background="@drawable/search_btn"
+            android:id="@+id/activity_assort_transcribe" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:background="@color/white"
+            >
+            <TextView
+                android:id="@+id/activity_assrot_hotBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/orange"
+                android:text="热门排行"
+                android:textSize="16sp"
+                android:padding="5dp"
+                android:gravity="center"
+                android:layout_weight="1"
+                />
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="30dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/tab_line"/>
+            <TextView
+                android:id="@+id/activity_assort_newBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:padding="5dp"
+                android:gravity="center"
+                android:text="最新视频"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:orientation="horizontal"
+            >
+            <ImageView
+                android:id="@+id/activity_assrot_hot_foucs_tab_img"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/tab_focus"
+                android:gravity="center"
+                android:layout_weight="1"/>
+
+            <ImageView
+                android:id="@+id/activity_assrot_new_foucs_tab_img"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/tab_focus"
+                android:gravity="center"
+                android:visibility="invisible"
+                android:layout_weight="1"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <com.li.videoapplication.View.RefreshListView
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:id="@+id/activity_acssort_hot_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="@null"
+        android:scrollbars="none"
+        android:divider="@null">
+
+    </com.li.videoapplication.View.RefreshListView>
+
+
+
+    <com.li.videoapplication.View.RefreshListView
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:visibility="gone"
+        android:id="@+id/activity_assort_new_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="@null"
+        android:scrollbars="none"
+        android:divider="@null">
+
+    </com.li.videoapplication.View.RefreshListView>
+
+
+
+</LinearLayout>

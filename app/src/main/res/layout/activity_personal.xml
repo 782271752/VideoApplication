@@ -1,0 +1,209 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/video_bottom_bg"
+    tools:context="com.li.videoapplication.activity.PersonalActivity">
+
+    <RelativeLayout
+        android:id="@+id/person_title_layout"
+        android:background="@drawable/bg"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp">
+
+        <ImageButton
+            android:padding="5dp"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:src="@drawable/back"
+            android:background="@drawable/search_btn"
+            android:id="@+id/person_back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="个人中心"
+            android:textColor="@color/white"
+            android:id="@+id/person_title"
+            android:layout_centerInParent="true"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_below="@id/person_title_layout"
+        android:id="@+id/person_scrollview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="none">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <ImageView
+                android:id="@+id/personbg"
+                android:layout_width="fill_parent"
+                android:layout_height="180dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/personbg"/>
+            <LinearLayout
+                android:paddingTop="60dp"
+                android:layout_below="@id/personbg"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                android:background="@drawable/video_bottom_bg">
+
+                <TextView
+                    android:id="@+id/personal_gift"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text="我的礼包"
+                    android:textSize="16sp"
+                    android:gravity="center_vertical"
+                    android:background="@drawable/editbg"
+                    android:drawableLeft="@drawable/gift"
+                    android:drawablePadding="20dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"/>
+
+                <TextView
+                    android:id="@+id/personal_collect"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text="我的收藏"
+                    android:textSize="16sp"
+                    android:gravity="center_vertical"
+                    android:background="@drawable/editbg"
+                    android:drawableLeft="@drawable/star"
+                    android:drawablePadding="20dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"/>
+                <TextView
+                    android:visibility="gone"
+                    android:id="@+id/personal_download"
+                    android:layout_marginTop="-1dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text="下载管理"
+                    android:textSize="16sp"
+                    android:gravity="center_vertical"
+                    android:background="@drawable/editbg"
+                    android:drawableLeft="@drawable/down"
+                    android:drawablePadding="20dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"/>
+                <TextView
+                    android:id="@+id/personal_upload"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text="上传视频"
+                    android:textSize="16sp"
+                    android:gravity="center_vertical"
+                    android:layout_marginTop="-1dp"
+                    android:background="@drawable/editbg"
+                    android:drawableLeft="@drawable/upload"
+                    android:drawablePadding="20dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"/>
+                <TextView
+                    android:id="@+id/personal_setting"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:text="应用设置"
+                    android:textSize="16sp"
+                    android:gravity="center_vertical"
+                    android:layout_marginTop="-1dp"
+                    android:background="@drawable/editbg"
+                    android:drawableLeft="@drawable/set"
+                    android:drawablePadding="20dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"/>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="15dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="观看记录"
+                        android:textSize="16sp"
+                        android:gravity="center_vertical"
+                        android:layout_marginRight="10dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="10dp"/>
+
+                    <TextView
+                        android:id="@+id/personal_read_more"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="查看更多>>"
+
+                        android:textSize="16sp"
+                        android:gravity="center_vertical"
+                        android:layout_marginRight="10dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginLeft="10dp"/>
+                </RelativeLayout>
+
+
+                <com.li.videoapplication.View.MyListView
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/person_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:scrollbars="none"
+                    android:cacheColorHint="@null"
+                    android:divider="@null"
+                    android:listSelector="@android:color/transparent"
+                    ></com.li.videoapplication.View.MyListView>
+
+
+
+
+            </LinearLayout>
+
+            <com.li.videoapplication.View.CircularImage
+                android:id="@+id/person_head_img"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="150dp"
+                android:layout_marginLeft="20dp"/>
+            <TextView
+                android:id="@+id/personal_nickname"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="@color/white"
+                android:text=""
+                android:layout_marginTop="160dp"
+                android:layout_toRightOf="@id/person_head_img"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="@color/black"
+                android:text=""
+                android:layout_marginTop="185dp"
+                android:layout_toRightOf="@id/person_head_img"/>
+
+
+        </RelativeLayout>
+
+
+     </ScrollView>
+
+
+
+</RelativeLayout>

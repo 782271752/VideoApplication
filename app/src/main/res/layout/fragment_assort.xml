@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/video_bottom_bg"
+    tools:context=".fragment.AssortFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:scrollbars="none"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/assort_assortTv"
+                android:textSize="16sp"
+                android:padding="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="热门分类"/>
+
+            <com.li.videoapplication.View.ImgGridview
+
+                android:id="@+id/assort_assort_gv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:numColumns="2">
+
+            </com.li.videoapplication.View.ImgGridview>
+
+
+            <TextView
+                android:id="@+id/assort_gameTv"
+                android:textSize="16sp"
+                android:padding="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="热门游戏"/>
+
+            <com.li.videoapplication.View.ImgGridview
+                android:layout_marginTop="10dp"
+                android:id="@+id/assort_game_gv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:numColumns="2">
+
+            </com.li.videoapplication.View.ImgGridview>
+
+        </LinearLayout>
+
+
+
+
+
+
+    </ScrollView>
+
+</LinearLayout>

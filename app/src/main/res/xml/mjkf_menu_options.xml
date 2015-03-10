@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+            android:id="@+id/system_feedback"
+            android:title="@string/fm_setting_feedback_bugs"
+            android:icon="@drawable/mjkf_menu_icon_send_email"/>
+    <item
+            android:id="@+id/system_check_update"
+            android:title="@string/fm_setting_check_update"
+            android:icon="@drawable/mjkf_menu_icon_update"/>
+    <item
+            android:id="@+id/system_about"
+            android:title="@string/fm_setting_about"
+            android:icon="@drawable/mjkf_menu_icon_about"/>
+</menu>

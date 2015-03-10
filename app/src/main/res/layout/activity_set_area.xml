@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/video_bottom_bg"
+    tools:context="com.li.videoapplication.activity.SetNameActivity">
+
+    <RelativeLayout
+        android:background="@drawable/bg"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp">
+
+        <ImageButton
+            android:padding="5dp"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:src="@drawable/back"
+            android:background="@drawable/search_btn"
+            android:id="@+id/person_info_back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="设置地区"
+            android:textColor="@color/white"
+            android:layout_centerInParent="true"
+            android:textSize="20sp" />
+
+
+
+    </RelativeLayout>
+    <EditText
+        android:id="@+id/login_username_edt"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/ediit_bg"
+        android:hint="请输入地区"
+        android:textSize="16sp"
+
+        android:paddingLeft="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:text=""
+        />
+
+    <Button
+        android:id="@+id/login_login_btn"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/get"
+        android:text="完成"
+        android:textSize="15sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"/>
+
+</LinearLayout>

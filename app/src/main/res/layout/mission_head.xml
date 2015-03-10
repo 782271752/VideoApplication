@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="新手任务"
+        android:padding="2dp"
+        android:layout_alignParentLeft="true"/>
+
+    <TextView
+        android:id="@+id/mission_head_more"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/bg"
+        android:text="更多任务>>>"
+        android:padding="2dp"
+        android:layout_alignParentRight="true"/>
+    <LinearLayout
+        android:layout_below="@id/mission_head_more"
+        android:layout_marginTop="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="#E4E4E4" />
+
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/loading"
+        >
+         
+    <TextView
+            android:id="@+id/version_label"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:gravity="bottom|left"
+            android:layout_marginLeft="6dip"
+            android:layout_marginBottom="3dip"
+            android:textColor="@color/gray1"
+            android:textSize="16sp"
+            
+            />
+    <!-- android:text="V1.0.0" -->
+</FrameLayout>

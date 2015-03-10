@@ -1,0 +1,737 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">手游视界</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在加载...</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_mission_more">MissionMoreActivity</string>
+    <string name="title_activity_search_result">SearchResultActivity</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="title_activity_video_play">VideoPlayActivity</string>
+    <string name="title_activity_gift_detail">GiftDetailActivity</string>
+    <string name="title_activity_transcribe">TranscribeActivity</string>
+    <string name="title_activity_personal">PersonalActivity</string>
+    <string name="title_activity_assort">AssortActivity</string>
+    <string name="title_activity_setting">SettingActivity</string>
+    <string name="title_activity_personal_info">PersonalInfoActivity</string>
+    <string name="title_activity_about_us">AboutUsActivity</string>
+    <string name="title_activity_bussiness">BussinessActivity</string>
+    <string name="title_activity_feed_back">FeedBackActivity</string>
+    <string name="title_activity_feed_back_content">FeedBackContentActivity</string>
+    <string name="userid_found">用户信息已存在，正在跳转登录操作…</string>
+    <string name="logining">使用%s帐号登录中…</string>
+    <string name="auth_cancel">授权操作已取消</string>
+    <string name="auth_error">授权操作遇到错误</string>
+    <string name="auth_complete">授权成功，正在跳转登录操作…</string>
+    <string name="title_activity_down_load">DownLoadActivity</string>
+    <string name="title_activity_new_assort">NewAssortActivity</string>
+    <string name="title_activity_collect">CollectActivity</string>
+    <string name="title_activity_transcribe_upload">TranscribeUploadActivity</string>
+    <string name="title_activity_game">GameActivity</string>
+    <string name="title_activity_upload">UploadActivity</string>
+    <string name="title_activity_protect">ProtectActivity</string>
+    <string name="title_activity_set_name">SetNameActivity</string>
+    <string name="title_activity_upload_video">UploadVideoActivity</string>
+
+
+
+    <!--string name="fm_app_name">ScreenREC</string>
+    <string name="fm_app_name_pro">ScreenREC Pro</string>
+    <string name="fm_open_using">Please select an app to open</string>
+    <string name="fm_file_no_data">No available file</string>
+    <string name="fm_my_feed">My feedback</string>
+    <string name="fm_my_feed_has_reply">Your feedback has been replied</string>
+    <string name="fm_back">Back</string>
+    <string name="fm_input_your_comment">Please input your comment</string>
+    <string name="fm_submit">Submit</string>
+    <string name="fm_name">Name</string>
+    <string name="fm_tip">Prompt</string>
+    <string name="fm_mobile">Phone</string>
+    <string name="fm_system_setting">System setting</string>
+    <string name="fm_display_method">Display method</string>
+    <string name="fm_about_slogan">Our attention only for your better experience</string>
+    <string name="fm_everything_you_want_write_here">Piecing of fragmented time, Mobile changes life</string>
+    <string name="fm_work_group_name">Hiandroid Studio</string>
+    <string name="fm_setting_feedback_bugs">Feedback</string>
+    <string name="fm_setting_check_update">Check and Update</string>
+    <string name="fm_setting_about">About</string>
+    <string name="fm_faq">FAQ</string>
+    <string name="fm_version_mark">Release</string>
+    <string name="fm_already_download">Downloading</string>
+    <string name="fm_buy_no_ad_version">Get No Ad Version</string>
+    <string name="fm_cant_buy_no_google_play">You cannot buy the ad-free version, because no GooglePlay in your phone</string>
+    <string name="fm_error">Error</string>
+    <string name="fm_screenshot_setting">Recording Setting</string>
+    <string name="fm_screenshot_setting_1">Record Screen Setting</string>
+    <string name="fm_show_notify_item_in_notify_bar">Hide shortcuts at notification bar for record</string>
+    <string name="fm_falter_screenshot">Shaking to record</string>
+    <string name="fm_help_and_about">Help and About</string>
+    <string name="fm_about_mine">About</string>
+    <string name="fm_about__tip">Hiandroid Studio</string>
+    <string name="fm_how_to_use_this_app">User Guide</string>
+    <string name="fm_how_to_use_this_app_tip">How to use this app</string>
+    <string name="fm_buy_from_google_play">Purchase ad-free version from GooglePlay</string>
+    <string name="fm_take_anywhere_to_screenshot">Capture choose area</string>
+    <string name="fm_screenshot_done">Done</string>
+    <string name="fm_screenshot_tuya">Graffiti</string>
+    <string name="fm_full_screenshot">Full screen capture</string>
+    <string name="fm_screenshot_cancel">Cancel</string>
+    <string name="fm_screenshot_started">Notification bar recording has been launched</string>
+    <string name="fm_click_start_screenshot">Click to record screen</string>
+    <string name="fm_screenshot_failure">Recording failure</string>
+    <string name="fm_your_mobile_no_root">No root privileges in your phone</string>
+    <string name="fm_root_your_mobile">ROOT Phone</string>
+    <string name="fm_inner_app_shot">Screen record</string>
+    <string name="fm_screenshot_save_success">Save successfully</string>
+    <string name="fm_explorer_screenshot">Preview video</string>
+    <string name="fm_downloading">Downloading</string>
+    <string name="fm_new_function_index">New features navigation</string>
+    <string name="fm_login_and_taste">Experience the App</string>
+    <string name="fm_action_bar_share_with">Share With</string>
+    <string name="fm_download_done_installing">Download successfully, installing…</string>
+    <string name="fm_no_sdcard_cant_download_and_install">No SDCard, can not download and install APK files</string>
+    <string name="fm_start_download">Start to download</string>
+    <string name="fm_downloading_done_per">Download successfully, installing…</string>
+    <string name="fm_perhaps_download_please_wait">Ready for downloading, please wait</string>
+    <string name="fm_you_need_root">Get ROOT permissions to use this App</string>
+    <string name="fm_app_root">Apply permission</string>
+    <string name="fm_rotation">Rotation</string>
+    <string name="fm_enlarge">Large</string>
+    <string name="fm_narrow">Small</string>
+    <string name="fm_save">Save</string>
+    <string name="fm_share_to_email_title">An image share to you from ScreenREC user</string>
+    <string name="fm_share_def_content">ScreenREC Users share video to you</string>
+    <string name="fm_about_root_phone">About ROOT Phone</string>
+    <string name="fm_about_i_screenshot">About ScreenREC</string>
+    <string name="fm_setting_check_update_tip">Get newest version</string>
+    <string name="fm_vote_comment_btn">Vote &amp; Comment</string>
+    <string name="fm_test_version_label">Release Version:</string>
+    <string name="fm_version_your_is_new">Your app is newest</string>
+    <string name="fm_version_label">Version Code:</string>
+    <string name="fm_version_checking">Checking…</string>
+    <string name="fm_version_new_found">An new version was found</string>
+    <string name="fm_version_update">Update</string>
+    <string name="fm_version_you_must_update">You must update newest version first</string>
+    <string name="fm_confirm_exit">Are you sure to exit this app?</string>
+    <string name="fm_your_network_unavailable">Your network isunavailable</string>
+    <string name="fm_sure">Sure</string>
+    <string name="fm_loading">Loading…</string>
+    <string name="fm_setting_network">Network Setting</string>
+    <string name="fm_UMEmptyFbNotAllowed">Please input your feedback.</string>
+    <string name="fm_UMContentTooLong">Your content was over 140 characters. You will have to be more clever.</string>
+    <string name="fm_UMFbList_ListItem_State_ReSend">Fail,Press to resend</string>
+    <string name="fm_UMFbList_ListItem_State_Sending">Sending…</string>
+    <string name="fm_UMFbList_ListItem_State_Resending">Resending</string>
+    <string name="fm_UMFbList_ListItem_State_Fail">Fail</string>
+    <string name="fm_UMFb_Atom_State_Fail">Fail</string>
+    <string name="fm_UMFb_Atom_State_Sending">Sending…</string>
+    <string name="fm_UMFb_Atom_State_Resend">Fail,press to resend</string>
+    <string name="fm_UMFeedbackUmengTitle">Feedback</string>
+    <string name="fm_UMFeedbackListTitle">My Feedback</string>
+    <string name="fm_UMFeedbackConversationTitle">My Feedback</string>
+    <string name="fm_UMFeedbackTitle">Every word you write will benefit us.</string>
+    <string name="fm_UMFeedbackContent">Input your suggestions here</string>
+    <string name="fm_UMFeedbackSummit">Submit</string>
+    <string name="fm_UMFeedbackGoBack">Return</string>
+    <string name="fm_UMFeedbackGotIt">Got it</string>
+    <string name="fm_UMFeedbackSeeDetail">See Detail</string>
+    <string name="fm_UMViewThread">View Thread</string>
+    <string name="fm_UMNewReplyAlertTitle">You\'ve got reply</string>
+    <string name="fm_UMDeleteThread">Delete Thread</string>
+    <string name="fm_UMViewFeedback">View Feedback</string>
+    <string name="fm_UMDeleteFeedback">Delete Feedback</string>
+    <string name="fm_UMResendFeedback">Resend Feedback</string>
+    <string name="fm_UMDeleteMsg">Delete message</string>
+    <string name="fm_UMNewReplyFlick">Got new reply</string>
+    <string name="fm_UMNewReplyTitle">Got new reply</string>
+    <string name="fm_UMNewReplyHint">Click to view</string>
+    <string name="fm_more_item_select_color">Select Color</string>
+    <string name="fm_more_item_select_transparent">Select Transparent</string>
+    <string name="fm_more_item_select_line_weight">Select Line Weight</string>
+    <string name="fm_more_item_title">More Action</string>
+    <string name="fm_more_item_emboss">Emboss</string>
+    <string name="fm_more_item_blur">Blur</string>
+    <string name="fm_more_item_set_blur_value">Set Blur value</string>
+    <string name="fm_more_item_erase">Erase</string>
+    <string name="fm_please_select_transparent">Please select transparent value</string>
+    <string name="fm_please_select_line_weight">Please select line weight</string>
+    <string name="fm_image_format_summary">Default value : screen size</string>
+    <string name="fm_image_compress">Video quality</string>
+    <string name="fm_image_compress_1">Make sound &amp; video synchronized</string>
+    <string name="fm_please_select_image_compress">Please select compress value</string>
+    <string name="fm_please_select_blur_value">Please select blur value</string>
+    <string name="fm_float_screenshot">Float Button</string>
+    <string name="fm_float_screenshot_tip">Show a button on the screen for record</string>
+    <string name="fm_modify_path">Modify Path</string>
+    <string name="fm_select_all">Select All</string>
+    <string name="fm_delete_all">Clear All</string>
+    <string name="fm_clearing">Are Clearing</string>
+    <string name="fm_delete_selected_file">Delete Selected</string>
+    <string name="fm_invert_selection_file">Invert Selection</string>
+    <string name="fm_please_input_path">Please input path</string>
+    <string name="fm_dir_not_exist">Directory is not exist</string>
+    <string name="fm_dir_not_exist_or_not_write">DDirectory is not exist or can not write to directory</string>
+    <string name="fm_actual_size">Actual</string>
+    <string name="fm_paint">Paint</string>
+    <string name="fm_no_root_mobile_un_narmal">Only Rooted phone can record screen，please Root your phone. Click "ROOT
+        Phone" buttion to get more information about ROOT phone.</string>
+    <string name="fm_vote_this_app">Rate Screen Recorder</string>
+    <string name="fm_share">Share</string>
+    <string name="fm_share_to_friend">Share to friend</string>
+    <string name="fm_share_tip_content">Would you like to share the screenshot to your friend.</string>
+    <string name="fm_select_app_to_open">Select app to open</string>
+    <string name="fm_language">Language</string>
+    <string name="fm_other">Other</string>
+    <string name="fm_click_end_record">Click to stop record</string>
+    <string name="fm_image_compress_1_summary">Please change this value to make sound and video synchronized</string>
+    <string name="fm_image_compress_summary">adjust this value to change video quality (smaller value, better quality)</string>
+    <string name="fm_orig_size">Original size</string>
+    <string name="fm_rs_quality_normal">Normal</string>
+    <string name="fm_gen_video_tip">Generated video tips</string>
+    <string name="fm_run_back">Run in background</string>
+    <string name="fm_gen_video_ing">Generating video…</string>
+    <string name="fm_gen_video_ing_1">Video is creating ，please wait…</string>
+    <string name="fm_jindu">Progress</string>
+    <string name="fm_record_done">Record done</string>
+    <string name="fm_click_to_open_record_file">Click to open record file</string>
+    <string name="fm_gen_video_done">Video generated</string>
+    <string name="fm_record_done_and_click_open"><![CDATA[The video is ready, you can share to your friend or open it.<br/>]]></string>
+    <string name="fm_preview">Preview</string>
+    <string name="fm_share_to_firend">Share to friend</string>
+    <string name="fm_slelct_to_share">Select to share</string>
+    <string name="fm_record_tip">Record screen tip</string>
+    <string name="fm_record_tip_content"><![CDATA[Your phone may heat up when recording screen. If you think this is detrimental to your device, please stop immediately. ]]></string>
+    <string name="fm_continue_record">continue</string>
+    <string name="fm_cancel_record">cancel</string>
+    <string name="fm_app_tip">App tip</string>
+    <string name="fm_about_root">About ROOT</string>
+    <string name="fm_app_root_failure">App root failure, please restart it.</string>
+    <string name="fm_cancel">Cancel</string>
+    <string name="fm_unsupport_tip_content"><![CDATA[Your device can not use this app，<br/>please click Support List button<br/> to get more avaliable device list.<br/>]]></string>
+    <string name="fm_support_device">Support List</string>
+    <string name="fm_current_value">Current value：</string>
+    <string name="fm_how_to_start_record">how to start record</string>
+    <string name="fm_i_know">I know</string>
+    <string name="fm_dont_show_again">Don\'t show again</string>
+
+    <string-array name="fm_image_format">
+        <item>320x480</item>
+        <item>640x960</item>
+        <item>Original size</item>
+    </string-array>
+
+    <string name="fm_start_record">Start Record Screen Video</string>
+    <string name="fm_stop_record">Stop Record Screen Video</string>
+    <string name="fm_video_draw">Video graphic fix</string>
+    <string name="fm_video_draw_tip">Select this when video graphic is poor</string>
+    <string name="fm_color_fix">Color fixed</string>
+    <string name="fm_color_fix_tip">Select this when the video color is poor</string>
+    <string name="fm_where_use">Main application</string>
+    <string name="fm_where_use_tip">Select fps for application</string>
+    <string name="fm_custom_fps">Custom fps</string>
+    <string name="fm_select_fps_summary">Please select a fps value for video</string>
+    <string name="fm_please_uninstall_trail_app">Your are install pro version ,please uninstall the trail.</string>
+    <string name="fm_uninstall">Uninstall Trail</string>
+
+    <string-array name="fm_where_use_array">
+        <item>Application(15fps)</item>
+        <item>Game(18fps)</item>
+        <item>Movie(24fps)</item>
+        <item>Custom fps</item>
+    </string-array>
+
+    <string name="fm_please_select">Please select</string>
+    <string name="fm_tril_count_is_over">The trial version has run out, please download the professional edition.</string>
+    <string name="fm_get_pro_version">Download</string>
+    <string name="fm_no_google_play_in_your_mobile">Google Play is not installed on your device.</string>
+    <string name="fm_record_speed">Record Speed</string>
+    <string name="fm_record_speed_summary">Set record speed by your device config(recommend:200–500).</string>
+    <string name="fm_please_select_value">please select a value</string>
+    <string name="fm_restart">Restart</string>
+    <string name="fm_can_play_mp4_tip">if you can\'t play mp4 in your device , we recommend you use MXPlayer</string>
+    <string name="fm_download_mx_player">Download MXPlayer</string>
+    <string name="fm_no_sdcard_to_store_mp4">Please insert sdcard to your device and restart it.</string>
+    <string name="fm_make_sure_delete_all">Are you sure want to delete all mp4 file in the directory.</string>
+    <string name="fm_synthesis_failure">Composite mp4 video on your device fails, this may be because your system kernel or
+        CPU does not support.</string>
+    <string name="fm_sound_too_short">Record sound too short, please try again.</string>
+    <string name="fm_move_too_short">Record video too short, please try again.</string>
+    <string name="fm_hide_notify_screenshot">Hide notify bar</string>
+    <string name="fm_falter_screenshot_tip">Falter to start or stop record</string>
+    <string name="fm_cancel_record_sound">Cancel record audio when record video</string>
+    <string name="fm_cancel_record_sound_tip">Cancel record audio when record video</string>
+    <string name="fm_play_screenshot_sound">Cancel play audio when record</string>
+    <string name="fm_play_screenshot_sound_tip">Cancel play audio when record</string>
+    <string name="fm_bak_record_channel">Use bak channel</string>
+    <string name="fm_bak_record_channel_tip">When record failure, please selected</string>
+    <string name="fm_explorer_and_storage">Explorer and storage</string>
+    <string name="fm_screenshot_pic_explorer">Explore record file</string>
+    <string name="fm_vote_comment_tip">If you like this app , please vote me ,thanks!</string>
+    <string name="fm_save_image_format">Record video size</string>
+    <string name="fm_video_orientation">Use horizontal screen</string>
+    <string name="fm_video_orientation_tip">Output video for computer(vertical for mobile)</string>
+    <string name="fm_hide_water_float">Hide water mark</string>
+    <string name="fm_hide_water_float_tip">Do not show watermark when record video</string>
+    <string name="fm_device_code">Device Code</string>
+    <string name="fm_select_touches_from_developer">Please select show touches from developer options</string>
+    <string name="fm_copy">Copy</string>
+
+    <string-array name="fm_video_orientation_tip_array">
+        <item>VERTICAL</item>
+        <item>HORIZONTAL</item>
+        <item>HORIZONTAL(UP)</item>
+        <item>VERTICAL(UP)</item>
+    </string-array>
+    <string-array name="fm_video_orientation_tip_array_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string name="fm_buy_from_alipay">Buy from alipay.</string>
+    <string name="fm_on_trail_hide_water_float_tip">This function just for pro version,Please download it.</string>
+    <string name="fm_download_noroot_version">NoRoot Version</string>
+    <string name="fm_no_root_tip_content"><![CDATA[You can not use this app ,because your device not root privilege, so you can download the no root version from market.]]></string>
+    <string name="fm_record_failure_tip"><![CDATA[Failure!Please try the ways below，<br/>　1、Reboot your device<br/>　2、uninstall other record screen app<br/>　3、select other video decoder from setting.]]></string>
+    <string name="fm_close_visual_feedback_for_touches">close visual feedback for touches</string>
+    <string name="fm_close_show_touches">Close show touches</string>
+    <string name="fm_video_quality">Video Quality Choice</string>
+    <string name="fm_video_quality_tip">Control the record file size and video quality</string>
+
+    <string-array name="fm_video_quality_array">
+        <item>Smaller File</item>
+        <item>Normal</item>
+        <item>Standard</item>
+        <item>Better</item>
+        <item>Best Quality</item>
+    </string-array>
+    <string-array name="fm_video_quality_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string name="fm_audio_quality">Audio Quality Choice</string>
+    <string name="fm_audio_quality_tip">Control the record file size and audio quality</string>
+
+    <string-array name="fm_audio_quality_array">
+        <item>Smaller File</item>
+        <item>Normal</item>
+        <item>Standard</item>
+        <item>Better</item>
+        <item>Best Quality</item>
+    </string-array>
+    <string-array name="fm_audio_quality_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string name="fm_video_encoder">Video Encoder Choice</string>
+    <string name="fm_video_encoder_tip">Please select when the video in unnormal.</string>
+
+    <string-array name="fm_video_encoder_array">
+        <item>Video Encoder(H264)</item>
+        <item>Video Encoder(MPEG)</item>
+        <item>Video Encoder(FFMPEG)</item>
+    </string-array>
+    <string-array name="fm_video_encoder_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string name="fm_re_try">Try Again</string>
+    <string name="fm_no_license_access_alipay">no ad-free version,you need pay for it,now,it just cost 19.9 yuan (RMB)</string>
+    <string name="fm_no_license_access_google">no ad-free version,you need pay for it,you can pay from google play.</string>
+    <string name="fm_buy_from_market">Go to Market</string>
+    <string name="fm_download_pro_version">Download Pro Version</string>
+    <string name="fm_pro_version_is_downloading">Pro version is downloading</string>
+    <string name="fm_tip_next">Tip next</string>
+    <string name="fm_con_buy_success">Congratulations! bought success.</string>
+    <string name="fm_buyer_please_download">You are bought the pro version, please download it .</string>
+    <string name="fm_check_license_error">Check License error!</string>
+    <string name="fm_please_login_google_account">Please login you google account in you device.</string>
+    <string name="fm_the_license_server_unable">Check License failure! please retry.</string-->
+    <string name="title_activity_my_gift">MyGiftActivity</string>
+
+
+
+    <string name="fm_app_name">超级录录</string>
+    <string name="fm_str_text">更改文件名为：</string>
+    <string name="fm_app_name_pro">录屏专业版</string>
+    <string name="fm_open_using">请选择应用打开</string>
+    <string name="fm_file_no_data">没有可用的文件</string>
+    <string name="fm_my_feed">我的反馈</string>
+    <string name="fm_my_feed_has_reply">您的反馈收到回复</string>
+    <string name="fm_back">返回</string>
+    <string name="fm_input_your_comment">请输入您的评论&amp;反馈</string>
+    <string name="fm_submit">提交</string>
+    <string name="fm_name">姓名</string>
+    <string name="fm_tip">提示</string>
+    <string name="fm_mobile">手机</string>
+    <string name="fm_system_setting">系统设置</string>
+    <string name="fm_display_method">显示方式</string>
+    <string name="fm_about_slogan">我们的专注只为了您有更好的体验</string>
+    <string name="fm_everything_you_want_write_here">拼凑零碎时间，移动改变生活。</string>
+    <string name="fm_work_group_name">Hiandroid工作室</string>
+    <string name="fm_setting_feedback_bugs">反馈软件问题</string>
+    <string name="fm_setting_check_update">检查更新</string>
+    <string name="fm_setting_about">关于</string>
+    <string name="fm_faq">常见问题</string>
+    <string name="fm_version_mark">Release</string>
+    <string name="fm_already_download">下载中</string>
+    <string name="fm_buy_no_ad_version">购买专业版</string>
+    <string name="fm_cant_buy_no_google_play">您可以从Google Play专业版本。</string>
+    <string name="fm_error">错误</string>
+    <string name="fm_screenshot_setting">录制屏幕设置</string>
+    <string name="fm_screenshot_setting_1">基本设置</string>
+    <string name="fm_hide_notify_screenshot">隐藏通知栏</string>
+    <string name="fm_show_notify_item_in_notify_bar">隐藏通知栏显示的录屏栏</string>
+    <string name="fm_falter_screenshot">通过摇晃录屏</string>
+    <string name="fm_cancel_record_sound">录制声音</string>
+
+    <string name="fm_falter_screenshot_tip">摇晃开始和停止录屏</string>
+    <string name="fm_cancel_record_sound_tip">选择是否录制声音</string>
+    <string name="fm_play_screenshot_sound">取消播放软件声音</string>
+    <string name="fm_play_screenshot_sound_tip">取消播放录屏软件声音</string>
+    <string name="fm_bak_record_channel">使用备用通道</string>
+    <string name="fm_bak_record_channel_tip">正常录制不成功时选择</string>
+    <string name="fm_explorer_and_storage">录制设置</string>
+    <string name="fm_screenshot_pic_explorer">视频存放地址</string>
+    <string name="fm_help_and_about">帮助和关于</string>
+    <string name="fm_about_mine">关于我们</string>
+    <string name="fm_about__tip">Hiandroid工作室</string>
+    <string name="fm_how_to_use_this_app">使用帮助</string>
+    <string name="fm_how_to_use_this_app_tip">如何使用本软件</string>
+    <string name="fm_buy_from_google_play">从Google Play购买无限制全功能专业版</string>
+    <string name="fm_take_anywhere_to_screenshot">录制屏幕提示</string>
+    <string name="fm_screenshot_done">完成</string>
+    <string name="fm_screenshot_tuya">涂鸦</string>
+    <string name="fm_full_screenshot">开始录屏</string>
+    <string name="fm_screenshot_cancel">取消</string>
+    <!-- <string name="screenshot_started">通知栏录屏已启动</string>
+     <string name="click_start_screenshot">点击开始录屏</string>-->
+    <string name="fm_screenshot_started">启动录屏服务</string>
+    <string name="fm_click_start_screenshot">录屏服务已启动</string>
+    <string name="fm_screenshot_failure">截图失败。</string>
+    <string name="fm_your_mobile_no_root">您的手机没有Root</string>
+    <string name="fm_root_your_mobile">Root本手机</string>
+    <string name="fm_inner_app_shot">应用内截图</string>
+    <string name="fm_screenshot_save_success">保存成功。</string>
+    <string name="fm_explorer_screenshot">录屏预览</string>
+    <string name="fm_downloading">下载中…</string>
+    <string name="fm_new_function_index">新功能导航</string>
+    <string name="fm_login_and_taste">进入体验</string>
+    <string name="fm_action_bar_share_with">Share With</string>
+    <string name="fm_download_done_installing">下载完成，正在安装…</string>
+    <string name="fm_no_sdcard_cant_download_and_install">没有SDCard，不能下载安装APK文件。</string>
+    <string name="fm_start_download">开始下载.</string>
+    <string name="fm_downloading_done_per">正在下载，已完成</string>
+    <string name="fm_perhaps_download_please_wait">准备下载中，请稍后…</string>
+    <string name="fm_you_need_root">您需要获得Root权限才能使用本软件。</string>
+    <string name="fm_app_root">申请权限</string>
+    <string name="fm_rotation">旋转</string>
+    <string name="fm_enlarge">放大</string>
+    <string name="fm_narrow">缩小</string>
+    <string name="fm_save">保存</string>
+
+    <string name="fm_share_to_email_title">来自Android版ScreenREC的录屏分享</string>
+    <string name="fm_share_def_content">
+        <![CDATA[<a href="http://www.hianzuo.com/ScreenREC" target="_blank">ScreenREC</a> 用户给您分享了一段录屏视频。]]>
+    </string>
+    <string name="fm_about_root_phone">关于Root手机</string>
+    <string name="fm_about_i_screenshot">关于ScreenREC</string>
+    <string name="fm_setting_check_update_tip">获取最新版本</string>
+    <string name="fm_vote_comment_tip">喜欢就投我们一票吧。谢谢！</string>
+    <string name="fm_vote_comment_btn">投票及评论</string>
+    <string name="fm_test_version_label">发布版本：</string>
+    <string name="fm_version_your_is_new">你的应用程序是最新的</string>
+    <string name="fm_version_label">版本代码：</string>
+    <string name="fm_version_checking">检查中…</string>
+    <string name="fm_version_new_found">一个新的版本被发现</string>
+    <string name="fm_version_update">更新</string>
+    <string name="fm_version_you_must_update">您必须更新最新版本</string>
+    <string name="fm_confirm_exit">你确定要退出这个程序？</string>
+    <string name="fm_your_network_unavailable">你的网络不可用</string>
+    <string name="fm_sure">确定</string>
+    <string name="fm_cancel">取消</string>
+    <string name="fm_loading">载入中…</string>
+    <string name="fm_setting_network">网络设置</string>
+    <string name="UMEmptyFbNotAllowed">请输入您的反馈意见。</string>
+    <string name="UMContentTooLong">您的内容超过140个字符。</string>
+    <string name="UMFbList_ListItem_State_ReSend">失败，请重新发送</string>
+    <string name="UMFbList_ListItem_State_Sending">发送…</string>
+    <string name="UMFbList_ListItem_State_Resending">重发</string>
+    <string name="UMFbList_ListItem_State_Fail">失败</string>
+    <string name="UMFb_Atom_State_Fail">失败</string>
+    <string name="UMFb_Atom_State_Sending">发送…</string>
+    <string name="UMFb_Atom_State_Resend">失败，请重新发送，这将</string>
+    <string name="UMFeedbackUmengTitle">反馈</string>
+    <string name="UMFeedbackListTitle">我要留言</string>
+    <string name="UMFeedbackConversationTitle">我要留言</string>
+    <string name="UMFeedbackTitle">你写的每一个字，将有利于我们。</string>
+    <string name="UMFeedbackContent">输入您的建议，在这里</string>
+    <string name="UMFeedbackSummit">提交</string>
+    <string name="UMFeedbackGoBack">返回</string>
+    <string name="UMFeedbackGotIt">明白了</string>
+    <string name="UMFeedbackSeeDetail">详细</string>
+    <string name="UMViewThread">查看主题</string>
+    <string name="UMNewReplyAlertTitle">您已经得到了回复</string>
+    <string name="UMDeleteThread">删除主题</string>
+    <string name="UMViewFeedback">查看留言</string>
+    <string name="UMDeleteFeedback">删除反馈</string>
+    <string name="UMResendFeedback">重新发送反馈</string>
+    <string name="UMDeleteMsg">删除邮件</string>
+    <string name="UMNewReplyFlick">有新的回复</string>
+    <string name="UMNewReplyTitle">有新的回复</string>
+    <string name="UMNewReplyHint">点击查看</string>
+    <string-array name="UMgenderList">
+        <item>性别</item>
+        <item>男士</item>
+        <item>女士</item>
+    </string-array>
+    <string-array name="UMageList">
+        <item>年龄</item>
+        <item>&lt;18</item>
+        <item>18~24</item>
+        <item>25~30</item>
+        <item>31~35</item>
+        <item>36~40</item>
+        <item>41~50</item>
+        <item>51~59</item>
+        <item>>=60</item>
+    </string-array>
+
+    <string name="fm_more_item_select_color">选择颜色</string>
+    <string name="fm_more_item_select_transparent">选择透明度</string>
+    <string name="fm_more_item_select_line_weight">选择线条粗细</string>
+    <string name="fm_more_item_title">更多</string>
+    <string name="fm_more_item_emboss">浮雕</string>
+    <string name="fm_more_item_blur">模糊</string>
+    <string name="fm_more_item_set_blur_value">设置模糊值</string>
+    <string name="fm_more_item_erase">擦除</string>
+    <string name="fm_please_select_transparent">请选择透明值</string>
+    <string name="fm_please_select_line_weight">请选择线条粗细</string>
+    <string name="fm_save_image_format">录制视频大小选择</string>
+    <string name="fm_image_format_summary">默认为屏幕大小</string>
+    <string name="fm_image_compress">视频质量</string>
+    <string name="fm_image_compress_1">声音视频同步调节</string>
+    <string name="fm_please_select_image_compress">请选择压缩比例</string>
+    <string name="fm_please_select_blur_value">请选择模糊值</string>
+    <string name="fm_float_screenshot">浮动按钮</string>
+    <string name="fm_float_screenshot_tip">显示上一个截图按钮在屏幕上</string>
+    <string name="fm_modify_path">修改路径</string>
+    <string name="fm_select_all">全选</string>
+    <string name="fm_delete_all">全部清除</string>
+    <string name="fm_clearing">正在清理</string>
+    <string name="fm_delete_selected_file">删除选定</string>
+    <string name="fm_invert_selection_file">反选</string>
+    <string name="fm_please_input_path">请输入路径</string>
+    <string name="fm_dir_not_exist">目录是不存在</string>
+    <string name="fm_dir_not_exist_or_not_write">目录不存在或无法写入的目录</string>
+    <string name="fm_actual_size">还原</string>
+    <string name="fm_paint">涂鸦</string>
+    <string name="fm_no_root_mobile_un_narmal">只有ROOT过的手机能录屏，请先ROOT您的手机，您可以点击ROOT手机按钮，以获得更多的关于ROOT手机的信息。</string>
+    <string name="fm_vote_this_app">评分和评论</string>
+    <string name="fm_share">分享</string>
+    <string name="fm_share_to_friend">分享给朋友</string>
+    <string name="fm_share_tip_content">你想分享截图你的朋友吗？</string>
+    <string name="fm_select_app_to_open">选择的应用程序打开</string>
+    <string name="fm_language">语言</string>
+    <string name="fm_other">其他</string>
+    <string name="fm_click_end_record">单击停止录屏</string>
+    <string name="fm_image_compress_1_summary">声音和视频不同步可通过这个参数调节</string>
+    <string name="fm_image_compress_summary">调节录屏后视频质量（值越小，质量越好）</string>
+    <string name="fm_orig_size">原始大小</string>
+    <string name="fm_rs_quality_normal">普通</string>
+    <string name="fm_gen_video_tip">生成视频提示</string>
+    <string name="fm_run_back">后台执行</string>
+    <string name="fm_gen_video_ing">正在生成视频</string>
+    <string name="fm_gen_video_ing_1">正在合成视频文件中，请稍后…</string>
+    <string name="fm_jindu">进度</string>
+    <string name="fm_record_done">录屏完成</string>
+    <string name="fm_click_to_open_record_file">点击打开录屏文件</string>
+    <string name="fm_gen_video_done">录制结束</string>
+    <string name="fm_record_done_and_click_open"><![CDATA[视频已合成，点击预览即可打开<br/>]]></string>
+    <string name="fm_preview">预览</string>
+    <string name="fm_share_to_firend">分享给朋友</string>
+    <string name="fm_slelct_to_share">选择应用分享</string>
+    <string name="fm_record_tip">录屏提示</string>
+    <string name="fm_record_tip_content"><![CDATA[录屏时，手机可能会发热。如果您觉得这有损您的设备，请立即停止。<br/>]]></string>
+    <string name="fm_continue_record">继续录屏</string>
+    <string name="fm_cancel_record">取消录屏</string>
+    <string name="fm_app_tip">应用提示</string>
+    <string name="fm_about_root">关于ROOT</string>
+    <string name="fm_app_root_failure">申请Root权限失败，请重启应用重新申请。</string>
+    <string name="fm_unsupport_tip_content">
+        <![CDATA[您的设备不能使用这款应用，<br/>您可以点击 支持设备 按钮<br/>查看可以使用这个应用的设备列表。]]></string>
+    <string name="fm_support_device">支持设备</string>
+    <string name="fm_current_value">当前值：</string>
+    <string name="fm_how_to_start_record">如何开始录屏</string>
+    <string name="fm_i_know">我知道了</string>
+    <string name="fm_dont_show_again">不再显示</string>
+    <string name="fm_please_select">请选择应用</string>
+    <string name="fm_video_orientation">横竖屏选择</string>
+    <string name="fm_video_orientation_tip">输出电脑上播放的视频为横屏(手机播放为竖屏)</string>
+    <string name="fm_tril_count_is_over">试用版次数已经用完，请使用专业版，现在购买，只需19.9元。</string>
+    <string name="fm_get_pro_version">购买专业版</string>
+    <string name="fm_no_google_play_in_your_mobile">您的设备中没有安装Google Play。</string>
+    <string name="fm_record_speed">录制速度</string>
+    <string name="fm_record_speed_summary">根据您的手机配置设置录制速度(推荐值:200–500)。</string>
+    <string name="fm_please_select_value">请选择一个值</string>
+    <string name="fm_restart">重启应用</string>
+    <string name="fm_can_play_mp4_tip">如果您不能在设备中播放视频，我们建议您使用MXPlayer</string>
+    <string name="fm_download_mx_player">下载MXPlayer</string>
+    <string name="fm_no_sdcard_to_store_mp4">请插入SDcard，然后重启应用录屏。</string>
+    <string name="fm_make_sure_delete_all">您确实要删除存储文件夹下面的所有MP4文件吗？</string>
+    <string name="fm_synthesis_failure">在您的设备上合成视频失败，这可能是因为你手机的系统内核或者CPU不支持造成的。</string>
+    <string name="fm_sound_too_short">录制声音时间太短，请重试。</string>
+    <string name="fm_move_too_short">录制视频时间太短，请重试。</string>
+    <string-array name="fm_image_format">
+        <item>340x600</item>
+        <item>240x420</item>
+        <item>原始大小</item>
+    </string-array>
+    <string name="fm_start_record">开始录制屏幕</string>
+    <string name="fm_stop_record">停止录制屏幕</string>
+    <string name="fm_quality_of_video">录制视频画质选择</string>
+    <string name="fm_quality_of_video_tip">默认标准，请按机器性能合理选择</string>
+
+    <string name="fm_video_draw">视频渲染修正</string>
+    <string name="fm_video_draw_tip">视频渲染效果差时选择此项</string>
+    <string name="fm_color_fix">视频颜色修正</string>
+    <string name="fm_color_fix_tip">视频颜色不对时选择此项</string>
+    <string name="fm_where_use">视频帧率选择</string>
+    <string name="fm_where_use_tip">选择不同的视频帧率,默认15fps</string>
+    <string name="fm_custom_fps">自定义帧率</string>
+
+    <string name="fm_standard">标准</string>
+    <string name="fm_vivid">清晰</string>
+    <string name="fm_high_definition">高清</string>
+
+    <string name="fm_select_fps_summary">请滑动进度选择一个适当的视频帧率录制</string>
+    <string name="fm_please_uninstall_trail_app">您已经安装了录屏专业版，请卸载试用版，谢谢！</string>
+    <string name="fm_uninstall">卸载试用版</string>
+    <string name="fm_hide_water_float">隐藏显示水印</string>
+    <string name="fm_hide_water_float_tip">录制视频时不显示水印</string>
+    <string name="fm_fm_device_code">手机唯一码</string>
+    <string name="fm_fm_select_touches_from_developer">请从开发者选项中选择显示触控对象</string>
+    <string name="fm_copy">复制</string>
+    <string-array name="fm_where_use_array">
+        <item>应用(15fps)</item>
+        <item>游戏(18fps)</item>
+        <item>电影(24fps)</item>
+        <item>自定义帧率</item>
+    </string-array>
+
+    <string-array name="fm_quality_of_video_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="fm_quality_of_video_array">
+        <item>流畅</item>
+        <item>标准</item>
+        <item>高清</item>
+    </string-array>
+
+
+
+
+    <string-array name="fm_video_orientation_tip_array">
+        <item>竖屏</item>
+        <item>横屏</item>
+        <item>横屏(翻转)</item>
+        <item>竖屏(翻转)</item>
+    </string-array>
+    <string-array name="fm_video_orientation_tip_array_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string name="fm_buy_from_alipay">使用支付宝购买。</string>
+    <string name="fm_on_trail_hide_water_float_tip">此功能只有专业版能使用，请购买专业版。，现在购买，只需19.9元。</string>
+    <string name="fm_download_noroot_version">NoROOT版本</string>
+    <string name="fm_no_root_tip_content">
+        <![CDATA[由于您的设备没有获得ROOT权限，<br/>不能使用这款应用。<br/>请下载我们的NoROOT版本！]]></string>
+    <string name="fm_record_failure_tip">
+        <![CDATA[合成失败！请尝试以下几种办法解决，<br/>　1、重启您的设备<br/>　2、卸载其他录屏软件<br/>　3、从设置选择其他视频解码器]]></string>
+    <string name="fm_visual_feedback_for_touches">显示触控对象的视觉反馈</string>
+    <string name="fm_show_touches">显示触感反馈</string>
+    <string name="fm_video_quality">视频质量选择</string>
+    <string name="fm_video_quality_tip">选择以控制录制文件大小和视频质量</string>
+    <string-array name="fm_video_quality_array">
+        <item>文件最小</item>
+        <item>一般</item>
+        <item>标准</item>
+        <item>较好</item>
+        <item>质量最好</item>
+    </string-array>
+    <string-array name="fm_video_quality_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string name="fm_audio_quality">声音质量选择</string>
+    <string name="fm_audio_quality_tip">选择以控制文件大小和声音质量</string>
+    <string-array name="fm_audio_quality_array">
+        <item>文件最小</item>
+        <item>一般</item>
+        <item>标准</item>
+        <item>较好</item>
+        <item>质量最好</item>
+    </string-array>
+    <string-array name="fm_audio_quality_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string name="fm_video_encoder">视频解码器选择</string>
+    <string name="fm_video_encoder_tip">录制的视频效果不好时，请选择</string>
+    <string-array name="fm_video_encoder_array">
+        <item>视频解码器(H264)</item>
+        <item>视频解码器(MPEG)</item>
+        <item>视频解码器(FFMPEG)</item>
+    </string-array>
+    <string-array name="fm_video_encoder_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+
+    <string name="fm_re_try">重试</string>
+    <string name="fm_no_license_access_alipay">付费应用，您需要购买后才能使用。现在购买，只需19.9元。</string>
+    <string name="fm_no_license_access_google">付费应用，您需要购买后才能使用，您可以从Google Play购买。</string>
+    <string name="fm_buy_from_market">购买</string>
+    <string name="fm_download_pro_version">下载专业版</string>
+    <string name="fm_pro_version_is_downloading">录屏专业版下载中</string>
+    <string name="fm_tip_next">下次提示</string>
+    <string name="fm_con_buy_success">恭喜您！已经购买成功。</string>
+    <string name="fm_buyer_please_download">您已经是购买用户，请下载专业版使用。</string>
+    <string name="fm_check_license_error">检查许可证时发生错误，请联系管理员。</string>
+    <string name="fm_please_login_google_account">如果从Google Play购买，请在设备上登录购买时的Google账号</string>
+    <string name="fm_the_license_server_unable">检查许可证失败，这可能会因为服务在请求阶段不可用而发生，请重试</string>
+
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    
+     android:id="@+id/layout"
+     
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <FrameLayout 
+        android:id="@+id/framelayout"
+     	android:layout_width="fill_parent"
+      	android:layout_height="160dip"
+      	android:background="@drawable/radio_fra_bottom_bg">
+      	
+      <com.li.videoapplication.View.ViewFlow
+			android:id="@+id/viewflow"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/radio_fra_bottom_bg"
+	/>       
+    　
+     <LinearLayout
+             android:layout_width="fill_parent"
+             android:layout_height="30dp"
+             android:layout_gravity="center|bottom"
+             android:gravity="right|center_vertical"
+             android:background="@drawable/vf_bg_border"
+             android:padding="3dip" >
+         	 <com.li.videoapplication.View.CircleFlowIndicator
+                 android:id="@+id/viewflowindic"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_gravity="center_vertical"
+                 android:padding="2dip"
+                 app:activeColor="@color/white"
+                 app:activeType="fill"
+                 app:circleSeparation="10dip"
+                 app:inactiveColor="@color/bg"
+                 app:inactiveType="fill"
+                 app:radius="3dip" />
+         </LinearLayout>
+         
+ </FrameLayout>
+ </LinearLayout>

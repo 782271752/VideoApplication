@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.li.videoapplication.activity.ProtectActivity">
+
+    <RelativeLayout
+        android:background="@drawable/bg"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp">
+
+        <ImageButton
+
+            android:padding="5dp"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:src="@drawable/back"
+            android:background="@drawable/search_btn"
+            android:id="@+id/about_us_back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="协议"
+            android:textColor="@color/white"
+            android:layout_centerInParent="true"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+
+
+    <TextView
+        android:id="@+id/about_us_content"
+        android:layout_marginTop="20dp"
+        android:textSize="16sp"
+        android:text="    用户在使用视频上传服务时，必须遵守中华人民共和国相关法律法规的规定，用户同意将不会利用本服务进行任何违法或不正当的活动，包括但不限于上传包含有下列内容之一的视频内容：\n1) 反对宪法确定的基本原则；\n2）危害国家统一、主权和领土完整的；\n3）泄露国家秘密、危害国家安全或者损害国家荣誉和利益的；\n4）煽动民族仇恨、民族歧视，破坏民族团结，或者侵害民族风俗、习惯的；\n5）宣扬邪教、迷信的； \n6）扰乱社会秩序，破坏社会稳定的； \n7）诱导未成年人违法犯罪和渲染暴力、色情、赌博、恐怖活动的； \n8）侮辱或者诽谤他人，侵害公民个人隐私等他人合法权益的；\n9）危害社会公德，损害民族优秀文化传统的；\n10）非法的广播电视频道、视听节目网站提供的非法视频内容；\n11）有关法律、行政法规和国家规定禁止的其他内容。
+　　\n    2 用户不得对本服务任何部分或本服务之使用或获得，进行复制、拷贝、出售、转售或用于任何其它商业目的。\n    3 用户须对自己在使用手游视界服务过程中的行为承担法律责任。用户承担法律责任的形式包括但不限于：对受到侵害者进行赔偿，以及在手游视界公司首先承担了因用户行为导致的行政处罚或侵权损害赔偿责任后，用户应给予手游视界公司等额的赔偿。"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

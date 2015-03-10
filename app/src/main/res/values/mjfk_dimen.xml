@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="mjkf_color_picker_hsvHeight">240dp</dimen>
+    <dimen name="mjkf_color_picker_hsvWidth">240dp</dimen>
+    <dimen name="mjkf_color_picker_hueWidth">30dp</dimen>
+    <dimen name="mjkf_color_picker_spacer">8dp</dimen>
+</resources>

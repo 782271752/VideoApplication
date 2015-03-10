@@ -1,0 +1,97 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.li.videoapplication.activity.CollectActivity">
+
+    <RelativeLayout
+        android:background="@drawable/bg"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp">
+
+        <ImageButton
+            android:padding="5dp"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:src="@drawable/back"
+            android:background="@drawable/search_btn"
+            android:id="@+id/activity_collect_back" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我的收藏"
+            android:textColor="@color/white"
+            android:layout_centerInParent="true"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:layout_alignParentRight="true"
+
+            android:id="@+id/download_delect_img"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:paddingRight="10dp"
+            android:layout_centerVertical="true"
+            android:background="@drawable/search_btn"
+            android:src="@drawable/delbtn"
+
+            android:gravity="center"
+            />
+
+    </RelativeLayout>
+
+    <com.li.videoapplication.View.RefreshListView
+        android:id="@+id/collecy_list"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="none"
+        android:layout_marginTop="60dp"
+        android:cacheColorHint="@null"
+        android:divider="@null"
+        android:listSelector="@android:color/transparent"
+        ></com.li.videoapplication.View.RefreshListView>
+
+    <LinearLayout
+        android:id="@+id/down_load_bottom"
+        android:visibility="gone"
+        android:layout_alignParentBottom="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:gravity="center"
+        android:paddingRight="10dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/download_delect_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="@drawable/get"
+            android:layout_marginRight="14dp"
+            android:text="删除"
+            android:textSize="15sp"
+            android:textColor="@color/white"
+            />
+        <Button
+            android:id="@+id/download_cancel_btn"
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:layout_height="40dp"
+            android:layout_marginLeft="14dp"
+            android:background="@drawable/install"
+            android:text="取消"
+            android:textSize="15sp"
+            android:textColor="@color/white"
+            />
+    </LinearLayout>
+
+
+</RelativeLayout>

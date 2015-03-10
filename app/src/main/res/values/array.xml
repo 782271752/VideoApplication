@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="image" translatable="false">
+        <item>拍摄照片</item>
+        <item>选择手机中的图片</item>
+    </string-array>
+
+    <string-array name="sex" translatable="false">
+        <item>男</item>
+        <item>女</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="debug" >
+        <source path="F:\project\VideoApplication完整版\VideoApplication9月份sdk\VideoApplication\SMSSDK\build\intermediates\bundles\debug\assets" />
+    </dataSet>
+    <dataSet config="main" >
+        <source path="F:\project\VideoApplication完整版\VideoApplication9月份sdk\VideoApplication\SMSSDK\src\androidTest\assets" />
+    </dataSet>
+
+</merger>

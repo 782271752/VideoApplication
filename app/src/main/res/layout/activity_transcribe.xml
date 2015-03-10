@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/video_bottom_bg"
+    tools:context="com.li.videoapplication.activity.TranscribeActivity">
+
+    <RelativeLayout
+        android:background="@drawable/bg"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp">
+
+        <ImageButton
+            android:padding="5dp"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:src="@drawable/back"
+            android:background="@drawable/search_btn"
+            android:id="@+id/search_result_back" />
+
+        <TextView
+            android:id="@+id/search_result_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="录制"
+            android:textColor="@color/white"
+            android:layout_centerInParent="true"
+            android:textSize="20sp" />
+
+        <ImageButton
+
+            android:layout_marginRight="2dp"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/persion"
+            android:background="@drawable/search_btn"
+            android:id="@+id/search_persion" />
+
+
+
+    </RelativeLayout>
+
+    <com.li.videoapplication.View.RefreshListView
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:id="@+id/transcribe_list"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="none"
+        android:cacheColorHint="@null"
+        android:divider="@null"
+        android:listSelector="@android:color/transparent"
+        ></com.li.videoapplication.View.RefreshListView>
+
+
+
+</LinearLayout>

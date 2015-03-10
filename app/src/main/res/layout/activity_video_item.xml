@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+    
+    
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="160dp">
+
+        <ImageView
+            android:id="@+id/video_item_img"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="centerCrop"/>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="20dp"
+            android:layout_alignParentBottom="true"
+            android:background="#80FF7900"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/video_item_title"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:paddingLeft="5dp"
+                    android:gravity="center_vertical"
+                    android:text="32131"
+                    android:textColor="@color/orange"
+                    android:textSize="12sp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:layout_weight="1"
+                    >
+
+                    <TextView
+                        android:id="@+id/video_item_flower"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="12sp"
+                        android:text="32131"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:textColor="@color/green"
+                        android:drawableLeft="@drawable/flower"
+                        />
+
+                    <TextView
+                        android:id="@+id/video_item_comment"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="12sp"
+                        android:textColor="@color/green"
+                        android:text="32131"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:drawableLeft="@drawable/commet"
+                        />
+
+                    <TextView
+
+                        android:id="@+id/video_item_time"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="12sp"
+                        android:text="01:25"
+                        android:textColor="@color/white"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:paddingRight="4dp"
+                        />
+
+                </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/video_item_playcount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3.8万"
+            android:drawablePadding="4dp"
+            android:drawableLeft="@drawable/play"
+            android:textSize="12sp"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="4dp"
+            android:textColor="@color/white"
+            android:background="#80FF7900"/>
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/video_item_content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="20dp"
+        android:singleLine="true"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/collect_item_gv_item_check_img"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:textSize="40sp"
+        android:textColor="@color/white"
+        android:text=""
+        android:background="#90000000"
+        android:gravity="center"/>
+    
+
+</RelativeLayout>

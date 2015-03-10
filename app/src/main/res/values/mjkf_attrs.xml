@@ -1,0 +1,20 @@
+<resources>
+    <declare-styleable name="MenuView">
+        <attr name="count" format="integer"/>
+        <attr name="bottom_height" format="dimension"/>
+        <attr name="bottom_bg" format="reference"/>
+        <attr name="bottoms_text" format="string"/>
+        <attr name="bottoms_textSize" format="dimension"/>
+        <attr name="bottoms_textNormalColor" format="color"/>
+        <attr name="bottoms_textSelectedColor" format="color"/>
+        <attr name="bottoms_normal_icon" format="string"/>
+        <attr name="bottoms_selected_icon" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="TextView">
+        <attr name="text" format="string"/>
+        <attr name="textSize" format="dimension"/>
+        <attr name="textColor" format="color"/>
+    </declare-styleable>
+
+</resources>

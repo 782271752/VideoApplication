@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical"
+              android:background="#f3e8e8"
+        >
+    <include layout="@layout/fm_mjkf_top_bar"/>
+    <TextView
+            android:id="@+id/taonan_ad"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="5dip"
+            android:textSize="12sp"
+            android:textColor="#4a619f"
+            android:text="@string/fm_first_ui"
+            />
+</LinearLayout>
+

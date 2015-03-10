@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/dialog_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:background="@drawable/bg"
+        android:gravity="center"
+        android:textSize="28dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="3dp"
+        android:text="游戏类型"
+        />
+
+    <ListView
+        android:id="@+id/dialog_list"
+        android:layout_width="match_parent"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_height="340dp"
+        android:gravity="center">
+
+    </ListView>
+
+</LinearLayout>

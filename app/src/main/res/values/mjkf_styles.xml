@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!-- A theme for a custom dialog appearance.  Here we use an ugly
+         custom frame. -->
+    <style name="Theme.CustomDialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowBackground">@drawable/mjkf_send_err_bg</item>
+    </style>
+    <style name="Theme.SendErrorDialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowBackground">@drawable/mjkf_send_err_bg</item>
+    </style>
+    <style name="Theme.UpdateDataFromServerDialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowBackground">@drawable/mjkf_send_err_bg</item>
+    </style>
+
+
+    <style name="Widget.Holo.Button.Borderless" parent="@style/Widget.Holo.Button">
+        <item name="android:background">@drawable/item_background_holo_light</item>
+        <item name="android:paddingLeft">4.0dip</item>
+        <item name="android:paddingRight">4.0dip</item>
+    </style>
+
+    <style name="Widget.Holo.Button" parent="@style/Widget.Button">
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:textColor">@color/primary_text_holo_dark</item>
+        <item name="android:background">@drawable/btn_default_holo_dark</item>
+        <item name="android:minWidth">64.0dip</item>
+        <item name="android:minHeight">48.0dip</item>
+    </style>
+    <style name="Widget.Holo.Button.Small" parent="@style/Widget.Holo.Button">
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:textColor">@color/primary_text_holo_dark</item>
+        <item name="android:background">@drawable/btn_default_holo_dark</item>
+        <item name="android:minWidth">48.0dip</item>
+        <item name="android:minHeight">48.0dip</item>
+    </style>
+    <style name="Widget.Button" parent="@android:style/Widget">
+        <item name="android:textAppearance">?android:attr/textAppearanceSmallInverse</item>
+        <item name="android:textColor">@android:color/primary_text_light</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@android:drawable/btn_default</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+    </style>
+    <style name="borderlessButtonStyle" parent="@style/Widget.Holo.Button.Borderless"/>
+    <style name="Alipay.Transparent" parent="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+</resources>

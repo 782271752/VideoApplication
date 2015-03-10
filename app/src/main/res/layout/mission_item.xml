@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="80dp"
+            android:gravity="center"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:scaleType="centerCrop"
+                android:id="@+id/mission_item_img"
+                android:src="@drawable/ic_launcher"
+                android:layout_gravity="center" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/mission_item_title"
+                android:text="录制第一步视频"
+                android:textSize="18sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/mission_item_content"
+                android:text="录制第一步视频,录制第一步视频,录制第一步视频,录制第一步视频,录制第一步视频"
+                android:textColor="@color/bg"
+                android:layout_marginTop="5dp"
+                android:textSize="14sp"/>
+
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="活动奖品:"
+                    android:textColor="@color/bg"
+                    android:textSize="14sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/mission_item_gfit"
+                    android:textColor="@color/green"
+                    android:text="QQ公仔，Q币"
+                    android:textSize="14sp"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="3dp"
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="@color/line" />
+</LinearLayout>

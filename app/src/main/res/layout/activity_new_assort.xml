@@ -1,0 +1,125 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.li.videoapplication.activity.NewAssortActivity">
+
+    <RelativeLayout
+        android:background="@drawable/bg"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp">
+
+        <ImageButton
+            android:padding="5dp"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:src="@drawable/back"
+            android:background="@drawable/search_btn"
+            android:id="@+id/main_search" />
+
+        <TextView
+
+            android:id="@+id/new_assort_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/white"
+            android:layout_centerInParent="true"
+            android:textSize="20sp" />
+
+        <ImageButton
+
+            android:layout_alignParentRight="true"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="5dp"
+            android:scaleType="centerInside"
+            android:layout_centerVertical="true"
+            android:src="@drawable/persion"
+            android:background="@drawable/search_btn"
+            android:id="@+id/main_persion" />
+
+        <ImageButton
+            android:layout_toLeftOf="@id/main_persion"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="5dp"
+            android:scaleType="centerInside"
+            android:layout_centerVertical="true"
+            android:src="@drawable/video"
+            android:background="@drawable/search_btn"
+            android:id="@+id/main_video" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        >
+
+
+        <RelativeLayout
+            android:id="@+id/rl_tab"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            >
+
+            <com.li.videoapplication.View.SyncHorizontalScrollView
+                android:id="@+id/mHsv"
+                android:layout_width="fill_parent"
+                android:layout_height="40dip"
+                android:fadingEdge="none"
+                android:background="@drawable/radio_bg"
+                android:scrollbars="none" >
+
+                <RelativeLayout
+                    android:id="@+id/rl_nav"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    >
+
+                    <RadioGroup
+                        android:id="@+id/rg_nav_content"
+                        android:layout_width="fill_parent"
+                        android:layout_height="38dip"
+                        android:layout_alignParentTop="true"
+                        android:background="@color/white"
+                        android:orientation="horizontal" >
+                    </RadioGroup>
+
+                    <ImageView
+                        android:id="@+id/iv_nav_indicator"
+                        android:layout_width="wrap_content"
+                        android:layout_height="2dp"
+                        android:layout_alignParentBottom="true"
+                        android:background="@drawable/tab_focus"
+                        android:scaleType="matrix" />
+                </RelativeLayout>
+            </com.li.videoapplication.View.SyncHorizontalScrollView>
+
+
+        </RelativeLayout>
+
+
+
+
+    </RelativeLayout>
+
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/mViewPager"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/rl_tab"
+        android:layout_gravity="center"
+        android:background="#ffffff"
+        android:flipInterval="30"
+        android:persistentDrawingCache="animation" />
+
+</LinearLayout>

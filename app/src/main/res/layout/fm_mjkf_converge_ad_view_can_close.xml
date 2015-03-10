@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:clickable="false"
+        >
+    <com.ryan.core.ad.MjkfConvergeAdView
+            android:id="@+id/mjkf_ad_view"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            />
+    <ImageButton
+            android:id="@+id/mjkf_ad_close_btn"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            style="@style/borderlessButtonStyle"
+            android:src="@drawable/mjkf_ad_close_btn"
+            android:layout_gravity="right|center_vertical"
+            android:paddingRight="5dip"
+            android:visibility="visible"
+            />
+</FrameLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" 
+    android:descendantFocusability= "blocksDescendants"
+    android:gravity="center"
+     >
+
+    <ImageView
+        android:id="@+id/list_ImageView"
+        android:layout_width="0dp"
+        android:layout_height="150dp"
+        android:layout_weight="0.8" />
+    
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+	<TextView 
+    	android:id="@+id/list_TextView"
+    	android:textSize="13sp"
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="56464"
+ 	  	 />
+
+		<LinearLayout
+		    android:layout_width="wrap_content"
+		    android:layout_marginTop="15dp"
+		    android:layout_height="35dp"
+		    android:orientation="horizontal" >
+
+			<Button 
+				android:id="@+id/bt_upload"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="13sp"
+				android:focusable = "false"
+				android:textColor="@color/white"
+				android:text="上传"
+				/>
+			
+			<Button 
+				android:id="@+id/bt_del"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textSize="13sp"
+				android:focusable = "false"
+				android:textColor="@color/white"
+				android:text="删除"
+				/>
+		 </LinearLayout>
+	</LinearLayout>
+</LinearLayout>

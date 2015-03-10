@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <ListView
+            android:id="@+id/list"
+            android:fadingEdge="none"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:cacheColorHint="@android:color/transparent"
+            android:childIndicator="@null"
+            android:fastScrollEnabled="false"
+            />
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <LinearLayout
+                android:id="@+id/bottom_area"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                >
+            <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/fm_invert_selection_file"
+                    android:id="@+id/b_left_btn"
+                    />
+            <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/fm_delete_selected_file"
+                    android:id="@+id/b_right_btn"
+                    />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

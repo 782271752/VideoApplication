@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#ffffff</color>
+    <color name="gray0">#dfdfdf</color>
+    <color name="gray1">#bfbfbf</color>
+    <color name="gray2">#808080</color>
+    <color name="gray3">#505050</color>
+    <color name="gray4">#303030</color>
+    <color name="blue1">#6699ff</color>
+    <color name="blue2">#3366cc</color>
+    <color name="blue3">#003399</color>
+    <color name="green1">#99cc33</color>
+    <color name="green2">#00cc00</color>
+    <color name="green3">#ff6600</color>
+    <color name="orange1">#ffcc00</color>
+    <color name="orange2">#ff9900</color>
+    <color name="orange3">#ff6600</color>
+    <color name="red">#cc0000</color>
+    <color name="bg">#9fb7c8</color>
+    <color name="list_bg">#151B1F</color>
+
+    <color name="black_75_transparent">#75000000</color>
+    <color name="white_75_transparent">#75ffffff</color>
+
+
+    <color name="alert_dialog_bg">#4d4d4d</color>
+
+    <color name="mjkf_video_background">#FF000000</color>
+    <color name="mjkf_video_control_back">#AA00003D</color>
+    <color name="primary_text_holo_dark">#ff777777</color>
+</resources>

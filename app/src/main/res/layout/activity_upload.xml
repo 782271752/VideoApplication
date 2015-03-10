@@ -1,0 +1,212 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/video_bottom_bg"
+    tools:context="com.li.videoapplication.activity.UploadActivity">
+
+
+    <RelativeLayout
+        android:background="@drawable/bg"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp">
+
+        <ImageButton
+            android:padding="5dp"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:src="@drawable/back"
+            android:background="@drawable/search_btn"
+            android:id="@+id/setting_back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="上传"
+            android:textColor="@color/white"
+            android:layout_centerInParent="true"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            >
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="180dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/luzhi"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:background="@color/white"
+                >
+                <TextView
+                    android:id="@+id/upload_video"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="上传本地视频"
+                    android:textSize="16sp"
+                    android:padding="5dp"
+                    android:gravity="center"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:layout_weight="1"
+                    />
+                <ImageView
+                    android:layout_width="1dp"
+                    android:layout_height="30dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/tab_line"/>
+                <TextView
+                    android:id="@+id/upload_lu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:padding="5dp"
+                    android:gravity="center"
+                    android:text="录制一段"
+                    android:layout_weight="1"/>
+            </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/phone_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/upload_introduce_edt"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/ediit_bg"
+                android:hint="视频标题"
+                android:textSize="16sp"
+                android:paddingLeft="20dp"
+                android:text=""
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <EditText
+                    android:id="@+id/upload_game_edt"
+                    android:layout_below="@id/login_username_edt"
+                    android:layout_marginTop="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/ediit_bg"
+                    android:paddingLeft="20dp"
+                    android:textSize="16sp"
+                    android:hint="视频介绍"
+                    android:layout_weight="2"
+                    android:text=""
+                    />
+
+                <Button
+                    android:layout_marginLeft="30dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/install"
+                    android:textColor="@color/white"
+                    android:text="选择视频"
+                    android:textSize="14sp"
+                    android:layout_marginTop="15dp"
+                    android:layout_weight="3"
+                    android:id="@+id/login_getCode" />
+            </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="5dp">
+
+                <CheckBox
+                    android:id="@+id/register_agree_cb"
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_margin="5dp"
+                    android:padding="5dp"
+                    android:button="@drawable/bg_register_checked_view"
+                    android:checked="false" />
+                <TextView
+                    android:id="@+id/register_agree_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="我已认真阅读并同意用户协议"
+                    android:textSize="15sp"
+                    android:textColor="@color/gray"
+                    android:gravity="center_vertical" />
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/upload_filename"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text=""
+                android:visibility="gone"
+                android:layout_marginLeft="10dp"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:gravity="center_vertical" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_horizontal"
+                android:layout_marginRight="10dp"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/upload_cancel_bt"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/get"
+                    android:layout_marginRight="14dp"
+                    android:text="取消"
+                    android:textSize="15sp"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="15dp"/>
+                <Button
+                    android:id="@+id/upload_btn"
+                    android:layout_width="fill_parent"
+                    android:layout_weight="1"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="14dp"
+                    android:background="@drawable/get"
+                    android:text="上传"
+                    android:textSize="15sp"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="15dp"/>
+                </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
+

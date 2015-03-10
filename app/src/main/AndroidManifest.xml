@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.li.videoapplication" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.SYSTEM_OVERLAY_WINDOW" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR" />
+    <uses-permission android:name="com.android.vending.CHECK_LICENSE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+
+    <application
+        android:name="com.ryan.core.app.ExApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/tubiao"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.li.videoapplication.activity.WelcomeActivity"
+            android:theme="@style/NoTitleBar.Translucent.Background"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".activity.MainActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name="com.li.videoapplication.activity.LoginActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/title_activity_login"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.li.videoapplication.activity.MissionMoreActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/title_activity_mission_more"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.li.videoapplication.activity.SearchResultActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/title_activity_search_result"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.li.videoapplication.activity.SearchActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/title_activity_search"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.li.videoapplication.activity.VideoPlayActivity"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_video_play"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.li.videoapplication.activity.GiftDetailActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/title_activity_gift_detail"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.li.videoapplication.activity.TranscribeActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/title_activity_transcribe"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.li.videoapplication.activity.PersonalActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/title_activity_personal"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.li.videoapplication.activity.IntroduceActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/title_activity_personal"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.li.videoapplication.activity.AssortActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/title_activity_assort"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.li.videoapplication.activity.SettingActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/title_activity_setting"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.li.videoapplication.activity.PersonalInfoActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/title_activity_personal_info"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.li.videoapplication.activity.AboutUsActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/title_activity_about_us"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.li.videoapplication.activity.BussinessActivity"
+            android:label="@string/title_activity_bussiness" >
+        </activity>
+        <activity
+            android:name="com.li.videoapplication.activity.FeedBackNameActivity"
+            android:label="@string/title_activity_feed_back" >
+        </activity>
+        <activity
+            android:name="com.li.videoapplication.activity.FeedBackContentActivity"
+            android:label="@string/title_activity_feed_back_content" >
+        </activity>
+
+        <!--
+        敏捷开发部分>
+        <activity android:name="com.umeng.fb.ui.SendFeedback"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity android:name="com.umeng.fb.ui.FeedbackConversations"/>
+        <activity android:name="com.umeng.fb.ui.FeedbackConversation"
+            android:configChanges="keyboard"/
+        -->
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="5450f180fd98c5a66902c674" />
+
+        <activity
+            android:name="com.ryan.core.activity.HistoryActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoTitleBar" />
+        <activity
+            android:name="com.ryan.core.activity.AboutActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.ryan.core.activity.FaqActivity"
+            android:screenOrientation="portrait" />
+        <!--
+        android:screenOrientation="portrait"
+        android:launchMode="singleTask"
+        android:clearTaskOnLaunch="true"
+        -->
+
+        <activity
+            android:name="cn.smssdk.SMSSDKUIShell"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name="cn.sharesdk.framework.ShareSDKUIShell"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:windowSoftInputMode="stateHidden|adjustResize" >
+            <intent-filter>
+                <data android:scheme="tencent1103189341" />
+
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.li.videoapplication.wxapi.WXEntryActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="com.li.videoapplication.yxapi.YXEntryActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <service android:name="com.li.videoapplication.Service.DownLoadService" />
+
+        <!--
+            activity
+            android:name="cn.sharesdk.framework.ShareSDKUIShell"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:windowSoftInputMode="stateHidden|adjustResize" /
+        -->
+        <activity
+            android:name="com.li.videoapplication.activity.DownLoadActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/title_activity_down_load"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.li.videoapplication.activity.NewAssortActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/title_activity_new_assort"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.li.videoapplication.activity.CollectActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/title_activity_collect"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.li.videoapplication.activity.TranscribeUploadActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/title_activity_transcribe_upload"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.li.videoapplication.activity.RecordActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/title_activity_down_load"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.li.videoapplication.activity.GameActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/title_activity_game"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.li.videoapplication.activity.UploadActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/title_activity_upload"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.li.videoapplication.activity.ProtectActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/title_activity_protect"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.li.videoapplication.activity.SetNameActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/title_activity_set_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.li.videoapplication.activity.UploadVideoActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/title_activity_upload_video"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.li.videoapplication.activity.SetAreaActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" />
+
+        <service android:name="com.li.videoapplication.Service.UploadService" />
+
+        <activity
+            android:name="com.li.videoapplication.activity.WebviewActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.fmscreenrecorder.LoadingActivity"
+            android:launchMode="singleInstance"
+            android:theme="@style/Loading" >
+        </activity>
+
+        <!--
+       敏捷开发部分
+       <activity android:name="com.umeng.fb.ui.SendFeedback"
+                 android:windowSoftInputMode="adjustResize"/>
+       <activity android:name="com.umeng.fb.ui.FeedbackConversations"/>
+       <activity android:name="com.umeng.fb.ui.FeedbackConversation"
+                 android:configChanges="keyboard"/>
+       <meta-data android:value="52ff4556240bce38003086" android:name="UMENG_APPKEY"/>
+
+       <activity android:name="com.ryan.core.activity.HistoryActivity"
+                 android:screenOrientation="portrait"
+                 android:configChanges="keyboardHidden|orientation"
+                 android:theme="@style/NoTitleBar"
+               />
+        -->
+
+        <activity
+            android:name="com.fmscreenrecorder.floatview.MainActivity"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait"
+            android:theme="@style/perference_set_activity" >
+        </activity>
+        <activity
+            android:name="com.fmscreenrecorder.floatview.LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/perference_set_activity" >
+        </activity>
+        <activity
+            android:name="com.fmscreenrecorder.floatview.VideoPage"
+            android:screenOrientation="portrait"
+            android:theme="@style/perference_set_activity" >
+        </activity>
+        <activity
+            android:name="com.fmscreenrecorder.floatview.FileDirectorySelect"
+            android:screenOrientation="portrait"
+            android:theme="@style/perference_set_activity" >
+        </activity>
+
+        <!--
+              <activity
+                android:name="com.ryan.core.activity.AboutActivity"
+                android:theme="@android:style/Theme.NoTitleBar"
+                android:label="@string/mjkf_about"
+                android:configChanges="keyboard|keyboardHidden|orientation"
+                android:screenOrientation="portrait"
+                >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        -->
+
+        <activity
+            android:name="com.fmscreenrecorder.ActivityAlertDialog"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.fmscreenrecorder.EndRecordAlertDialog"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.ryan.core.activity.ExitActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.ryan.core.activity.LogoutActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!--
+        <activity android:name="com.ryan.core.activity.SendErrorActivity"
+                  android:label="@string/mjkf_error_occur"
+                  android:theme="@style/Theme.SendErrorDialog"
+                  android:screenOrientation="portrait"
+                />
+        <activity android:name="com.ryan.core.activity.FaqActivity"
+                  android:screenOrientation="portrait"
+                  android:label="@string/faq"/>
+        -->
+        <activity
+            android:name="com.fmscreenrecorder.ScreenImageExplorer"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.fmscreenrecorder.SettingActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/perference_set_activity" />
+        <!--
+        android:screenOrientation="portrait"
+        android:launchMode="singleTask"
+        android:clearTaskOnLaunch="true"
+        -->
+
+        <activity
+            android:name="com.fmscreenrecorder.AlertInActivityUtil"
+            android:screenOrientation="portrait"
+            android:theme="@style/Alipay.Transparent" >
+        </activity>
+        <activity
+            android:name="com.fmscreenrecorder.crop.CropActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+        </activity>
+        <activity
+            android:name="com.fmscreenrecorder.HtmlDocumentActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="HtmlDocument"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="net.tedstein.AndroSS.GLDetector"
+            android:theme="@android:style/Theme.NoTitleBar" />
+
+        <receiver android:name="com.ryan.core.receiver.GlobalReceiver" >
+            <intent-filter>
+                <action android:name="xgn.intent.action.GLOBAL_RECEIVER" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="com.fmscreenrecorder.ScreenRECService" />
+        <service android:name="com.fmscreenrecorder.floatview.FloatViewService" />
+
+        <activity
+            android:name="com.li.videoapplication.activity.MyGiftActivity"
+            android:label="@string/title_activity_my_gift" >
+        </activity>
+
+        <activity android:name=".activity.GiftAtuoDetailActivity"
+            android:screenOrientation="portrait"
+            />
+    </application>
+
+</manifest>

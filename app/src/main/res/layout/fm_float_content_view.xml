@@ -1,0 +1,68 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+	<FrameLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent" 
+	     android:layout_gravity="top"
+	     
+	     android:id="@+id/content_layout" 
+	    >
+	    <FrameLayout
+	        android:layout_width="175dp"
+	        android:id="@+id/content"
+	        android:layout_height="52dp"
+	        android:orientation="vertical"
+	        android:layout_gravity="right|center_vertical"
+	        android:background="@drawable/float_content_bg" 
+	        >
+		        <LinearLayout
+		            android:id="@+id/layout_bottom"
+		            android:layout_width="230dp"
+		            android:layout_height="42dp"
+		            android:layout_alignParentTop="true"
+		            android:layout_marginTop="4dp"
+		            android:orientation="horizontal"
+		            android:paddingTop="0dp" >          
+		            <ImageView
+		                android:id="@+id/bt_logo"
+		                android:layout_width="45dp"
+		                android:layout_height="45dp"
+		                android:layout_marginLeft="3dp"
+		                android:layout_marginRight="5dp"
+		                android:background="@drawable/float_view_ico_down" />
+			            <LinearLayout
+			            android:id="@+id/layout_botton"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:layout_marginTop="6dp"
+			            android:layout_marginLeft="3dp"
+			            android:orientation="horizontal"
+			            android:paddingTop="0dp" >
+			            <ImageView
+			                android:id="@+id/bt_start"
+			                android:layout_width="26dp"
+			                android:layout_height="26dp"
+			                android:layout_marginTop="3dp"
+			                android:background="@drawable/bt_start" />
+			            <ImageView
+			                android:id="@+id/bt_mic"
+			                android:layout_width="20dp"
+			                android:layout_height="30dp"
+			                android:layout_marginLeft="15dp"
+			                android:background="@drawable/bt_mic" />   
+			             <ImageView
+			                android:id="@+id/bt_backhome"
+			                android:layout_width="30dp"
+			                android:layout_height="30dp"
+			                android:layout_marginLeft="15dp"
+			                android:background="@drawable/bt_backhome" />
+			             </LinearLayout>
+		        </LinearLayout>
+	    </FrameLayout>
+    </FrameLayout>
+
+</FrameLayout>

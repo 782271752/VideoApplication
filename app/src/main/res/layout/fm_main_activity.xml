@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/mainbg"
+    android:orientation="vertical" >
+    
+    
+   		 <ImageView 
+    	    
+			android:layout_width="163dp"
+			android:layout_height="302dp"
+			android:layout_marginTop="20dp"
+			android:layout_gravity="center_horizontal"
+			android:background="@drawable/shuoming"
+			/>
+    
+        <LinearLayout
+            android:layout_width="wrap_content"
+			android:layout_marginBottom="6dp"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_height="wrap_content" >
+            
+            
+
+         <!--    <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_height="wrap_content" >
+	        	<ImageView
+		   	    android:id="@+id/main_video_bt"
+		        android:layout_width="50dp"
+		        android:layout_height="50dp"
+		        android:layout_gravity="center_horizontal"
+		        android:src="@drawable/video_bt"
+		        />
+        		 <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="我的视频" 
+		         android:layout_marginTop="7dp"
+		        android:layout_gravity="center_horizontal"
+		        android:textColor="@color/white"
+		        android:textSize="12sp"
+		        />  
+        	</LinearLayout> -->
+        	
+            
+             <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+             android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content" >
+        	 
+           		<ImageView
+		   	    android:id="@+id/main_record_server_bt"
+		        android:layout_width="80dp"
+		        android:layout_height="80dp"
+		        android:layout_gravity="center_horizontal"
+		        android:src="@drawable/record_server_bt"
+		        />
+                 <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="启动录制服务" 
+		        android:layout_marginTop="7dp"
+		        android:layout_gravity="center_horizontal"
+		        android:textColor="@color/white"
+		        android:textSize="12sp"
+		        /> 
+            </LinearLayout>
+
+	   	  <!--  	 <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="50dp"
+            android:layout_height="wrap_content" >
+                 		         
+		   	  	<ImageView
+		   	    android:id="@+id/main_settings_bt"
+		        android:layout_width="50dp"
+		        android:layout_height="50dp"
+		        
+		        android:layout_gravity="center_horizontal"
+		        android:src="@drawable/settings_bt"
+		        />	        
+		         <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="设置" 
+		         android:layout_marginTop="7dp"
+		        android:layout_gravity="center_horizontal"
+		        android:textColor="@color/white"
+		        android:textSize="12sp"
+		        />
+        	</LinearLayout>-->
+        	
+		</LinearLayout> 
+		
+        <!-- 
+	   	  	<CheckBox 
+	 	    android:id="@+id/cb"
+	 	    android:layout_marginTop="525dp"
+	 	     android:layout_gravity="center_horizontal"
+	  	    android:layout_width="wrap_content"   
+	   	    android:layout_height="wrap_content"
+	  	    android:checked="false"
+	  	    android:textSize="12sp"
+	  	    android:
+	  	  
+	   	    android:text="下次自行启动录屏服务，不启动本界面"/>   -->
+   	 
+</FrameLayout>

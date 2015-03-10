@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/three"
+    >
+
+    <Button
+        android:id="@+id/introudce_button"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:background="@drawable/button"
+        android:onClick="startButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        ></Button>
+
+</RelativeLayout>

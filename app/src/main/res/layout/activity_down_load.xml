@@ -1,0 +1,110 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.li.videoapplication.activity.DownLoadActivity">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:background="@drawable/bg"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            >
+
+            <ImageButton
+                android:padding="5dp"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:src="@drawable/back"
+                android:background="@drawable/search_btn"
+                android:id="@+id/download_back" />
+
+            <TextView
+                android:id="@+id/down_load_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="下载管理"
+                android:textColor="@color/white"
+                android:layout_centerInParent="true"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:layout_alignParentRight="true"
+
+                android:id="@+id/download_delect_img"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingRight="10dp"
+                android:layout_centerVertical="true"
+                android:background="@drawable/search_btn"
+                android:src="@drawable/delbtn"
+
+                android:gravity="center"
+                />
+
+
+        </RelativeLayout>
+
+        <GridView
+
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:id="@+id/download_gv"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:numColumns="2"
+            android:horizontalSpacing="10dp"
+            android:verticalSpacing="10dp"
+            ></GridView>
+
+        <LinearLayout
+            android:id="@+id/down_load_bottom"
+            android:visibility="gone"
+            android:layout_alignParentBottom="true"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:gravity="center"
+            android:paddingRight="10dp"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/download_delect_btn"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@drawable/get"
+                android:layout_marginRight="14dp"
+                android:text="删除"
+                android:textSize="15sp"
+                android:textColor="@color/white"
+             />
+            <Button
+                android:id="@+id/download_cancel_btn"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:layout_height="40dp"
+                android:layout_marginLeft="14dp"
+                android:background="@drawable/install"
+                android:text="取消"
+                android:textSize="15sp"
+                android:textColor="@color/white"
+            />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>

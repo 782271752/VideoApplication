@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:gravity="center_vertical"
+        android:layout_height="80dp">
+
+
+
+    <ImageView
+        android:id="@+id/relation_focus_item_img"
+        android:scaleType="centerCrop"
+        android:layout_width="60dp"
+        android:layout_height="60dp" />
+
+    <TextView
+        android:layout_toRightOf="@+id/relation_focus_item_img"
+        android:layout_marginLeft="15dp"
+        android:id="@+id/relation_focus_item_name"
+        android:text="哟西"
+        android:layout_width="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:layout_centerVertical="true"
+        android:layout_height="wrap_content" />
+
+    
+
+    </RelativeLayout>
+
+</RelativeLayout>

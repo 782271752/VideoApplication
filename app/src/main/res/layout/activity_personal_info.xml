@@ -1,0 +1,270 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/video_bottom_bg"
+    android:orientation="vertical"
+    tools:context="com.li.videoapplication.activity.PersonalInfoActivity">
+
+    <RelativeLayout
+        android:background="@drawable/bg"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp">
+
+        <ImageButton
+            android:padding="5dp"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:src="@drawable/back"
+            android:background="@drawable/search_btn"
+            android:id="@+id/person_info_back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="个人资料"
+            android:textColor="@color/white"
+            android:layout_centerInParent="true"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="none">
+
+
+
+         <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+             android:focusable="true"
+             android:focusableInTouchMode="true"
+             android:padding="10dp">
+
+
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="90dp"
+                android:gravity="center_vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:textSize="16sp"
+                    android:text="头像"/>
+
+                <com.li.videoapplication.View.CircularImage
+                    android:id="@+id/person_info_head_img"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:scaleType="centerCrop"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:background="@color/line" />
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:gravity="center_vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:textSize="16sp"
+                    android:text="昵称"/>
+
+                 <TextView
+                     android:id="@+id/personal_info_nickname"
+                     android:layout_width="300dp"
+                        android:gravity="right"
+                     android:layout_height="wrap_content"
+                     android:text=""
+                     android:layout_centerVertical="true"
+                     android:layout_alignParentRight="true"
+                     android:textSize="16sp"/>
+
+            </RelativeLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:background="@color/line" />
+
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:gravity="center_vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:textSize="16sp"
+                    android:text="性别"/>
+
+                <TextView
+                    android:id="@+id/personal_info_sex"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:text="男"
+                    android:layout_centerVertical="true"
+                    android:gravity="right"
+                    android:layout_alignParentRight="true"
+                    android:textSize="16sp"/>
+
+            </RelativeLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:background="@color/line" />
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:gravity="center_vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:textSize="16sp"
+                    android:text="手机号" />
+
+
+
+                <Button
+                    android:id="@+id/info_discon_btn"
+                    android:layout_width="60dp"
+                    android:layout_height="35dp"
+                    android:text="注销"
+                    android:textSize="16sp"
+                    android:textColor="@color/white"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/get"
+                    android:layout_alignParentRight="true"/>
+
+                <EditText
+                    android:id="@+id/info_num_discon_txt"
+                    android:background="@null"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="5dp"
+                    android:text=""
+                    android:layout_toLeftOf="@id/info_discon_btn"
+                    android:textSize="16sp"/>
+            </RelativeLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:background="@color/line" />
+
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:gravity="center_vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:textSize="16sp"
+                    android:text="地区"/>
+
+                <TextView
+                    android:id="@+id/info_address"
+                    android:background="@null"
+                    android:layout_width="300dp"
+                    android:gravity="right"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:textSize="16sp"/>
+
+            </RelativeLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:background="@color/line" />
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:gravity="center_vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:textSize="16sp"
+                    android:text="最喜欢的游戏类型"/>
+
+                <TextView
+                    android:id="@+id/personal_info_like_type"
+                    android:layout_width="200dp"
+                    android:gravity="right"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:background="@null"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:textSize="16sp"/>
+
+            </RelativeLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:background="@color/line" />
+
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:gravity="center_vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:textSize="16sp"
+                    android:text="分享绑定"/>
+
+                <ImageView
+                    android:id="@+id/info_qq"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:scaleType="centerCrop"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/qq_no"
+                   />
+                <ImageView
+                    android:id="@+id/info_weibo"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:scaleType="centerCrop"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@id/info_qq"
+                    android:layout_marginRight="20dp"
+                    android:src="@drawable/weibo_no"
+                    />
+
+            </RelativeLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:background="@color/line" />
+            </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

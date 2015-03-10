@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Loading" parent="android:Theme.Holo.Light">
+        <item name="android:windowBackground">@drawable/loading</item>
+        <item name="android:windowActionBar">true</item>
+    </style>
+    <style name="NoTitleBar" parent="android:Theme.NoTitleBar"/>
+    <style name="FullScreen" parent="android:Theme.NoTitleBar.Fullscreen"/>
+    <style name="WordScreen">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+    </style>
+</resources>

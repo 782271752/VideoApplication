@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/video_bottom_bg"
+    tools:context="com.li.videoapplication.activity.SearchActivity">
+
+
+    <RelativeLayout
+        android:background="@drawable/bg"
+        android:layout_width="fill_parent"
+        android:gravity="center_vertical"
+        android:layout_height="50dp">
+
+        <ImageButton
+            android:padding="5dp"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:src="@drawable/back"
+            android:background="@drawable/search_btn"
+            android:id="@+id/search_back" />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/search_back"
+            android:layout_toLeftOf="@+id/search_persion"
+            android:layout_centerVertical="true">
+
+            <EditText
+                android:id="@+id/search_edt"
+                android:layout_width="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_height="40dp" />
+
+            <ImageView
+                android:id="@+id/search_searchBtn"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:padding="5dp"
+                android:background="@drawable/search_btn"
+                android:src="@drawable/search"
+                android:layout_marginRight="4dp"
+                android:layout_marginBottom="6dp"
+                android:layout_alignParentRight="true"/>
+
+
+        </RelativeLayout>
+
+
+        <ImageButton
+
+            android:layout_marginRight="2dp"
+            android:layout_alignParentRight="true"
+            android:scaleType="centerInside"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="5dp"
+
+            android:layout_centerVertical="true"
+            android:src="@drawable/persion"
+            android:background="@drawable/search_btn"
+            android:id="@+id/search_persion" />
+
+
+
+    </RelativeLayout>
+
+    <AbsoluteLayout
+        android:layout_width="match_parent"
+        android:id="@+id/absoluteLayout1"
+        android:layout_margin="15dp"
+        android:layout_height="200dp"></AbsoluteLayout>
+
+
+</LinearLayout>

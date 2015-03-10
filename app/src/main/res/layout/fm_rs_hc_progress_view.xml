@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:padding="10dip"
+        >
+    <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dip"
+            android:text="@string/fm_gen_video_ing_1"/>
+    <ProgressBar
+            android:id="@+id/seek_bar"
+            android:layout_width="fill_parent"
+            android:layout_height="50dip"
+            android:max="100"
+            android:progress="0"
+            android:progressDrawable="@drawable/rc_hc_seek_bar_bg"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:thumb="@android:color/transparent"
+            android:visibility="visible"
+            android:focusable="false"
+            android:clickable="false"
+            />
+    <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dip"/>
+</LinearLayout>

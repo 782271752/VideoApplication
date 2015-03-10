@@ -1,0 +1,33 @@
+<resources>
+    <string-array name="mjkf_ap_display_use_mode" translatable="false">
+        <item>自定义模式</item>
+        <item>夜间模式</item>
+        <item>正常模式</item>
+    </string-array>
+    <string-array name="mjkf_ap_play_mode_list" translatable="false">
+        <item>顺序播放</item>
+        <item>倒序播放</item>
+        <item>随机播放</item>
+        <item>单曲循环</item>
+    </string-array>
+    <string-array name="mjkf_ap_display_content_type" translatable="false">
+        <item>左对齐</item>
+        <item>居中对齐</item>
+        <item>右对齐</item>
+    </string-array>
+    <string-array name="mjkf_ap_display_font_size" translatable="false">
+        <item>12sp</item>
+        <item>13sp</item>
+        <item>14sp</item>
+        <item>15sp</item>
+        <item>16sp</item>
+        <item>17sp</item>
+        <item>18sp</item>
+        <item>19sp</item>
+        <item>20sp</item>
+        <item>21sp</item>
+        <item>22sp</item>
+        <item>23sp</item>
+        <item>24sp</item>
+    </string-array>
+</resources>

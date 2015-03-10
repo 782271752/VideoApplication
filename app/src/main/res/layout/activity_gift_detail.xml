@@ -1,0 +1,254 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/video_bottom_bg"
+    tools:context="com.li.videoapplication.activity.GiftDetailActivity">
+
+    <ScrollView
+        
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:background="@drawable/bg"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                >
+
+                <ImageButton
+                    android:padding="5dp"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/back"
+                    android:background="@drawable/search_btn"
+                    android:id="@+id/gift_detail_back" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="礼包详情"
+                    android:textColor="@color/white"
+                    android:layout_centerInParent="true"
+                    android:textSize="20sp" />
+
+                <ImageButton
+                    android:scaleType="centerInside"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:padding="5dp"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/persion"
+                    android:background="@drawable/search_btn"
+                    android:id="@+id/gift_detail_persion" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:gravity="center_vertical"
+                android:padding="10dp">
+
+                <ImageView
+                    android:id="@+id/gift_detail_img"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:scaleType="centerCrop"
+                    android:layout_marginLeft="5dp"
+                    android:layout_centerVertical="true"/>
+                <LinearLayout
+                    android:layout_toRightOf="@id/gift_detail_img"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/gift_detail_title"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:text=""/>
+                    <TextView
+                        android:id="@+id/gift_detail_endtime"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:text=""/>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="14sp"
+                            android:text="剩余数量："/>
+
+                        <ProgressBar
+                            android:visibility="gone"
+                            android:layout_width="100dp"
+                            android:layout_height="3dp"
+                            android:layout_marginLeft="5dp"
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:progressDrawable="@drawable/progressbg"/>
+
+                        <TextView
+                            android:id="@+id/gift_detail_count"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="14sp"
+                            android:text=""/>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_margin="10dp"
+
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:background="#E4E4E4" />
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="礼包内容"/>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/gift_detail_content"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:padding="5dp"
+                    android:text=""/>
+                <!--TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:padding="5dp"
+                    android:text="砖    石:20个"/>
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:padding="5dp"
+                    android:text="友情点:80点"/>
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:padding="5dp"
+                    android:text="价    值:20元"/-->
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="兑换方式"/>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/gift_detail_change"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:padding="5dp"
+                    android:text=""/>
+
+            </LinearLayout>
+
+
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/gift_code_title"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="游戏礼包编号"/>
+
+            <LinearLayout
+
+                android:visibility="gone"
+                android:id="@+id/gift_code_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/gift_detail_code"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:padding="5dp"
+                    android:text=""/>
+
+                <Button
+                    android:id="@+id/gift_detail_copy"
+                    android:layout_width="fill_parent"
+                    android:background="@drawable/install"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="复制游戏编码"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:layout_height="30dp" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+
+</LinearLayout>

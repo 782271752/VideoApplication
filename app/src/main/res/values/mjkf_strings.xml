@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources >
+    <string name="fm_zn_remove_ad_success" translatable="false">the ad removed, please restart your app.</string>
+    <string name="fm_redeem_code_validated" translatable="false">the redeem has validated.</string>
+    <string name="fm_redeem_code_is_error" translatable="false">your redeem code is error.</string>
+    <string name="fm_redeem_code_is_passed" translatable="false">the redeem code already out of date</string>
+    <string name="fm_input_redeem_code" translatable="false">please input your redeem code</string>
+    <string name="fm_buy_or_use_code_get_no_ad" translatable="false">you can buy from market or use code to get no ad version.</string>
+    <string name="fm_zn_buy_from_market" translatable="false">Buy from market</string>
+    <string name="fm_v_redeem_code" translatable="false">Redeem Code</string>
+    <string name="fm_illegal_no_ad_version" translatable="false">
+        the no ad version on your mobile is illegal version, we already re-open
+        ad. if you feel that is error, please contact us.
+    </string>
+    <string name="fm_confirm_logout" translatable="false">Are you sure logout cureent account?</string>
+    <string name="fm_alert_title" translatable="false">Tip</string>
+    <string name="fm_error_occur" translatable="false">An error occur from #app_name#</string>
+    <string name="fm_zn_system_setting" translatable="false">System setting</string>
+    <string name="fm_about" translatable="false">About</string>
+    <string name="fm_update_dialog_progress_message" translatable="false">Downloading,please wait…</string>
+    <string name="fm_download" translatable="false">Download</string>
+    <string name="fm_zn_start_download" translatable="false">Download</string>
+    <string name="fm_cannot_collect_to_server" translatable="false">The network is normal, but fail connection to server.</string>
+    <string name="fm_capture_image_in_mobile" translatable="false">手机拍照</string>
+    <string name="fm_local_image_in_mobile" translatable="false">本地图片</string>
+    <string name="fm_crop_image_fail" translatable="false">裁剪图片失败</string>
+    <string name="fm_choose_photo_type" translatable="false">选择获取图片的方式</string>
+    <string name="fm_send_error_report_failure" translatable="false">发送错误报告失败。</string>
+    <string name="fm_zn_version_mark" translatable="false">公测版</string>
+    <string name="fm_more_product">更多产品</string>
+    <string name="fm_about_copy_right">Copy right @2011 #work_group_name#</string>
+    <string name="fm_about_url">#work_group_url#</string>
+    <string name="fm_about_all_rights_reserved">All Rights Reserved</string>
+    <string name="fm_zn_about_slogan">#fm_about_slogan#</string>
+    <string name="fm_about_logos">#everything_you_want_write_here#</string>
+    <string name="fm_zn_share">分享</string>
+    <string name="fm_zn_share_to_friend">分享给好友</string>
+    <string name="fm_share_to_qq_weibo">分享到QQ微博</string>
+    <string name="fm_share_to_renren">分享到人人网</string>
+    <string name="fm_share_to_kaixin">分享到开心网</string>
+    <string name="fm_share_to_contact_book">分享给通讯录里面的人</string>
+    <string name="fm_share_to_email">分享到邮箱</string>
+
+    <string name="fm_share_to_chooser_title">请选择邮件分享客户端</string>
+    <string name="fm_share_to_sina_weibo">分享到新浪微薄</string>
+    <string name="fm_share_to_sina_no_client_in_your_mobile">您还没有安装新浪微博客户端，请先下载。</string>
+    <string name="fm_share_success">分享成功。</string>
+    <string name="fm_share_failure">分享失败。</string>
+
+
+    <string name="fm_qq_weibo_authing">正在获得QQ微博授权…</string>
+    <string name="fm_qq_weibo_you_have_on_auth_title">您已经绑定了一个QQ微博授权</string>
+    <string name="fm_qq_weibo_you_have_on_auth_content">
+        您已经绑定了一个QQ微博授权在当前应用上面，您可以选择继续使用此授权或者授权其他帐号。\r\n警告：\r\n如果您授权其他帐号，当前的授权将被注销。
+    </string>
+    <string name="fm_qq_weibo_continue_sure">继续使用此授权</string>
+    <string name="fm_qq_weibo_auth_other_account">授权其他帐号</string>
+    <string name="fm_qq_weibo_auth_failure">获取QQ微博授权失败。</string>
+    <string name="fm_qq_weibo_waiting_auth">QQ微博等待您的授权。</string>
+    <string name="fm_qq_weibo_sending_share">正在发送分享…</string>
+    <string name="fm_qq_weibo_loading_auth_page">正在为您加载QQ微博授权页面…</string>
+    <string name="fm_qq_weibo_user_need_to_know">
+        我们不会获取到您的QQ帐号和密码，点击确定为您接入到QQ微博官方…\r\n如果你有什么疑问请参看http://open.t.qq.com/。
+    </string>
+
+    <string name="fm_recommend_to_use_soft">推荐您使用的软件</string>
+    <string name="fm_recommend_soft_loading">正在加载推荐软件…</string>
+    <string name="fm_recommend_soft_down_count">下载次数:</string>
+    <string name="fm_recommend_soft_version_name">版本:</string>
+    <string name="fm_recommend_soft_size">大小:</string>
+    <string name="fm_recommend_soft_download">下载</string>
+    <string name="fm_recommend_soft_update">更新</string>
+    <string name="fm_recommend_soft_open">打开</string>
+
+    <string name="fm_download_url_error">下载地址[#download_url#]错误。</string>
+    <string name="fm_about_more_recommend_soft">更多推荐软件</string>
+    <string name="fm_setting">设置</string>
+    <string name="fm_deving">开发中…</string>
+    <string name="fm_first_ui">敏捷开发，第一个界面</string>
+    <string name="fm_for_improve_app_send_error">为了更好的改进我们的软件，程序正在向服务器发送错误信息，这些信息对软件来说非常重要。请不要退出，稍后程序将自动退出。</string>
+    <string name="fm_send_error">错误信息发送中…</string>
+
+    <string name="fm_setting_system_setting">系统设置</string>
+    <string name="fm_zn_setting_feedback_bugs">反馈问题</string>
+    <string name="fm_zn_setting_check_update">检查更新</string>
+    <string name="fm_setting_logout">注销当前账号</string>
+    <string name="fm_setting_exit">退出应用</string>
+    <string name="fm_setting_faq">常见问题</string>
+    <string name="fm_setting_recommend_soft">推荐软件</string>
+    <string name="fm_setting_share">分享</string>
+    <string name="fm_zn_setting_about">关于</string>
+    <string name="fm_setting_recommend_to_use_soft">推荐您使用的软件</string>
+
+    <string name="fm_no_adobe_flash_player_in_your_mobile">在您的手机中没有Adobe Flash Player，您需要下载后才能继续播放视频。</string>
+    <string name="fm_after_install_afp_some_mobile_need_restart_mobile">在安装Adobe Flash Player，部分机型可能需要重启应用才能生效。
+    </string>
+    <string name="fm_no_space_left_on_device">您的SD卡没有足够的空间了，请删除一些内容再试。</string>
+    <string name="fm_audio_player">音频播放器</string>
+    <string name="fm_audio_play_list">列表</string>
+    <string name="fm_audio_player_setting_title">音频播放器设置</string>
+    <string name="fm_audio_player_setting">设置</string>
+    <string name="fm_audio_play">播放</string>
+    <string name="fm_audio_lrc">歌词</string>
+    <string name="fm_audio_play_prev_100m">提前100毫秒</string>
+    <string name="fm_audio_play_next_100m">延后100毫秒</string>
+    <string name="fm_audio_not_exist">音频文件不存在</string>
+    <string name="fm_audio_no_lrc">没有找到对应歌词</string>
+    <string name="fm_audio_no_play_list">没有发现播放列表</string>
+    <string name="fm_ap_hide_eng_content">隐藏课文英文内容</string>
+    <string name="fm_ap_hide_tra_content">隐藏课文翻译内容</string>
+    <string name="fm_ap_keep_screen_light">保持屏幕唤醒</string>
+    <string name="fm_ap_keep_screen_light_summary">在播放的时候保持屏幕一直是点亮的状态。</string>
+    <string name="fm_ap_bg">背景颜色</string>
+    <string name="fm_ap_sleep_mode">睡眠模式</string>
+    <string name="fm_ap_display_font_size">显示字体大小</string>
+    <string name="fm_ap_select_display_font_size">选择显示字体大小</string>
+    <string name="fm_ap_display_font_color">显示字体颜色</string>
+    <string name="fm_ap_play_mode_setting">播放模式设置</string>
+    <string name="fm_ap_play_mode_select_tip">请选择播放模式</string>
+    <string name="fm_ap_play_mode_order">顺序播放</string>
+    <string name="fm_ap_play_mode_reverse">倒序播放</string>
+    <string name="fm_ap_play_mode_random">随机播放</string>
+    <string name="fm_ap_play_mode_random_foreach_single">单曲循环</string>
+    <string name="fm_ap_mode_setting">界面模式设置</string>
+    <string name="fm_ap_mode_select_tip">选择显示模式</string>
+    <string name="fm_ap_mode_normal">正常模式</string>
+    <string name="fm_ap_mode_night">夜间模式</string>
+    <string name="fm_ap_mode_ady_tip">请在使用下面的项自定义背景，字体颜色和字体大小</string>
+    <string name="fm_ap_select_color_prefix">选择的色值是</string>
+
+    <string name="fm_tn_pinyin_raw_not_found">拼音数据文件没有找到，请复制tn_pinyin到raw文件夹下。</string>
+    <string name="remote_access_use_cache">网络请求使用缓存</string>
+    <string name="remote_access_use_cache_des">如果打开默认将从本地先读取如果没有才从网络读取请求内容</string>
+    <string name="fm_teach_last_btn_first_text">进入体验</string>
+    <string name="fm_teach_first_toast_string">左右滑动可查看更多新功能，滑动到最后一页即可进入应用。</string>
+    <string name="fm_teach_last_btn_no_first_text">返回</string>
+    <string name="fm_color_picker_dialog_title">颜色选择器</string>
+
+    <string name="fm_history_are_you_sure_clear">您确定要清除历史记录吗？</string>
+    <string name="fm_history_clear_cannot_recovery">清除历史记录将不可恢复，您确定要清除历史记录吗？</string>
+    <string name="fm_history_select_delete">选择删除</string>
+    <string name="fm_history_access_list">访问历史记录</string>
+    <string name="fm_history_delete_done">完成删除</string>
+    <string name="fm_history_no_list">您现在还没有历史记录。</string>
+    <string name="fm_history_occur_error">发生错误，请返回再进入刷新重试。</string>
+
+   	<string name="fm_login_label_username">帐号</string>
+    <string name="fm_login_label_password">密码</string>
+    <string name="fm_login_label_signin">登 录</string>
+    <string name="fm_login_status_logging_in">登录中...</string>
+    <string name="fm_login_username_hint">Email或手机号</string>
+    <string name="fm_login_register_link">没有帐号？ <a href="#">注册</a></string>
+
+</resources>

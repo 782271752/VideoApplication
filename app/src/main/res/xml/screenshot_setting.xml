@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+        android:title="@string/fm_screenshot_setting"
+        android:key="setting"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--  <com.iscreenrecorder.AdPreference
+              android:layout="@layout/screenshot_ads"
+              android:key="banner_ads"
+              />-->
+     <!--<PreferenceCategory
+            android:title="@string/screenshot_setting_1">-->
+      <!--    <CheckBoxPreference android:title="@string/hide_notify_screenshot"
+                            android:key="hide_notify"
+                            android:summary="@string/show_notify_item_in_notify_bar"
+                            android:defaultValue="false"/>
+         <CheckBoxPreference android:title="启动悬浮窗"
+                            android:key="show_float_view"
+                            android:summary="启动录制服务的同时，启动浮窗服务"
+                            android:defaultValue="true"/>
+        
+                <CheckBoxPreference android:title="@string/show_touches"
+                            android:key="show_touches"
+                            android:summary="@string/visual_feedback_for_touches"
+                            android:defaultValue="false"
+                />-->
+        
+        <!--  <CheckBoxPreference android:title="@string/hide_water_float"
+                            android:key="hide_water_float"
+                            android:summary="@string/hide_water_float_tip"
+                            android:defaultValue="false"/>-->
+     <!--</PreferenceCategory>-->
+    <PreferenceCategory
+            android:title="@string/fm_explorer_and_storage">
+        
+              <CheckBoxPreference 
+                        android:title="@string/fm_cancel_record_sound"
+                        android:key="record_sound"
+                        android:summary="@string/fm_cancel_record_sound_tip"
+                        android:defaultValue="true"/>
+        
+        <Preference android:title="@string/fm_screenshot_pic_explorer"
+                    android:key="image_store_dir"
+                />
+     <!-- -->   
+
+       
+   <!--       <ListPreference android:title="@string/video_orientation"
+                        android:key="video_orientation"
+                        android:entryValues="@array/video_orientation_tip_array_value"
+                        android:entries="@array/video_orientation_tip_array"
+                        android:summary="@string/video_orientation_tip"
+                        android:defaultValue="0"
+                />-->
+               <ListPreference 
+                        android:title="@string/fm_quality_of_video"
+                        android:key="quality_of_video"
+                        android:entryValues="@array/fm_quality_of_video_array"
+                        android:entries="@array/fm_quality_of_video_array"
+                        android:summary="@string/fm_quality_of_video_tip"
+                        android:defaultValue="流畅"
+                />  
+                
+      
+       
+        
+
+       <!--   <CheckBoxPreference android:title="@string/video_draw"
+                            android:key="video_draw"
+                            android:summary="@string/video_draw_tip"
+                            android:defaultValue="false"/>
+        <CheckBoxPreference android:title="@string/color_fix"
+                            android:key="color_fix"
+                            android:summary="@string/color_fix_tip"
+                            android:defaultValue="false"/>-->
+
+    </PreferenceCategory>
+   <PreferenceCategory
+            android:title="高级设置">
+
+       <CheckBoxPreference 
+                        android:title="使用高级设置参数"
+                        android:key="use_debug"
+                        android:summary="选上，则使用以下调试参数"
+                        android:defaultValue="false"/>
+               
+        <ListPreference android:title="@string/fm_save_image_format"
+                        android:key="save_format"
+                        android:entryValues="@array/fm_image_format"
+                        android:entries="@array/fm_image_format"
+                        android:summary="@string/fm_image_format_summary"
+                />
+        
+        <ListPreference 
+                        android:title="@string/fm_where_use"
+                        android:key="where_use"
+                        android:entryValues="@array/fm_where_use_array"
+                        android:entries="@array/fm_where_use_array"
+                        android:summary="@string/fm_where_use_tip"
+                />
+         <ListPreference
+                android:title="@string/fm_video_encoder"
+                android:key="video_encoder"
+                android:entryValues="@array/fm_video_encoder_value"
+                android:summary="@string/fm_video_encoder_tip"
+                android:entries="@array/fm_video_encoder_array"
+                android:defaultValue="0"
+                />
+       
+        <ListPreference
+                android:title="@string/fm_video_quality"
+                android:key="video_quality"
+                android:entryValues="@array/fm_video_quality_value"
+                android:summary="@string/fm_video_quality_tip"
+                android:entries="@array/fm_video_quality_array"
+                android:defaultValue="2"
+                />
+       
+       <ListPreference
+                android:title="@string/fm_audio_quality"
+                android:key="audio_quality"
+                android:entryValues="@array/fm_audio_quality_value"
+                android:entries="@array/fm_audio_quality_array"
+                android:summary="@string/fm_audio_quality_tip"
+                android:defaultValue="2"
+                />
+       
+    <!--     <Preference android:title="@string/language"
+                    android:key="language"
+                    android:summary="English"/>
+         
+        <Preference android:title="@string/vote_this_app"
+                    android:key="vote_this_app"
+                    android:summary="@string/vote_comment_tip"/>
+         <Preference android:title="@string/device_code"
+                    android:key="mobile_device_code"
+                    android:summary=""/> --> 
+    </PreferenceCategory>
+</PreferenceScreen>
